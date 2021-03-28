@@ -1,0 +1,47 @@
+[
+    {
+      "id": "1",
+      "style": "IPA",
+      "variant": "English",
+      "beerName": "Not Looking For A New England",
+      "brewery": "The Dandy Brewing Company",
+      "rating": 3.73,
+      "label": "https://i.imgur.com/ZayvyF4.jpg?1"
+    },
+    {
+        "id": "2",
+        "style": "IPA",
+        "variant": "English",
+        "beerName": "Van Full of Weirdos",
+        "brewery": "Refined Brewing Co.",
+        "rating": 3.73,
+        "label": "https://i.imgur.com/Ae2WEsc.jpg"
+      },
+      {
+        "id": "3",
+        "style": "IPA",
+        "variant": "English",
+        "beerName": "Jed IPA",
+        "brewery": "Picaroons Brewing Company",
+        "rating": 3.70,
+        "label": "https://i.imgur.com/QHgYRzp.jpg?1"
+      },
+      {
+        "id": "4",
+        "style": "IPA",
+        "variant": "English",
+        "beerName": "Nasty Habit",
+        "brewery": "Mt.Begbie Brewing Co.",
+        "rating": 3.69,
+        "label": "https://i.imgur.com/ByNKHw0.jpg"
+      },
+      {
+        "id": "5",
+        "style": "IPA",
+        "variant": "English",
+        "beerName": "Englishish IPA",
+        "brewery": "District Brewing Company",
+        "rating": 3.69,
+        "label": "https://i.imgur.com/ck1octe.jpg"
+      }
+]
