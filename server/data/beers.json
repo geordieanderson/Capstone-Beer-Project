@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+      "id": "EIPA1",
       "style": "IPA",
       "variant": "English",
       "beerName": "Not Looking For A New England",
@@ -9,7 +9,7 @@
       "label": "https://i.imgur.com/ZayvyF4.jpg?1"
     },
     {
-        "id": "2",
+        "id": "EIPA2",
         "style": "IPA",
         "variant": "English",
         "beerName": "Van Full of Weirdos",
@@ -18,7 +18,7 @@
         "label": "https://i.imgur.com/Ae2WEsc.jpg"
       },
       {
-        "id": "3",
+        "id": "EIPA3",
         "style": "IPA",
         "variant": "English",
         "beerName": "Jed IPA",
@@ -27,7 +27,7 @@
         "label": "https://i.imgur.com/QHgYRzp.jpg?1"
       },
       {
-        "id": "4",
+        "id": "EIPA4",
         "style": "IPA",
         "variant": "English",
         "beerName": "Nasty Habit",
@@ -36,12 +36,102 @@
         "label": "https://i.imgur.com/ByNKHw0.jpg"
       },
       {
-        "id": "5",
+        "id": "EIPA5",
         "style": "IPA",
         "variant": "English",
         "beerName": "Englishish IPA",
         "brewery": "District Brewing Company",
         "rating": 3.69,
         "label": "https://i.imgur.com/ck1octe.jpg"
-      }
+      },
+      {
+        "id": "AIPA1",
+        "style": "IPA",
+        "variant": "American",
+        "beerName": "Bank Hotel",
+        "brewery": "Brasserie du Bas-Canada",
+        "rating": 4.32,
+        "label": "https://i.imgur.com/6l1o7pq.jpg"
+      },
+      {
+          "id": "AIPA2",
+          "style": "IPA",
+          "variant": "American",
+          "beerName": "Nordet IPA",
+          "brewery": "Brasserie Auval Brewing",
+          "rating": 4.30,
+          "label": "https://i.imgur.com/ZlEhb0p.jpg"
+        },
+        {
+          "id": "AIPA3",
+          "style": "IPA",
+          "variant": "American",
+          "beerName": "HYPA #9",
+          "brewery": "Brasserie du Bas-Canada",
+          "rating": 4.30,
+          "label": "https://i.imgur.com/mBFEgCj.jpg"
+        },
+        {
+          "id": "AIPA4",
+          "style": "IPA",
+          "variant": "American",
+          "beerName": "HYPA #5",
+          "brewery": "Brasserie du Bas-Canada",
+          "rating": 4.27,
+          "label": "https://i.imgur.com/mBFEgCj.jpg"
+        },
+        {
+          "id": "AIPA5",
+          "style": "IPA",
+          "variant": "American",
+          "beerName": "HYPA #4",
+          "brewery": "Brasserie du Bas-Canada",
+          "rating": 4.27,
+          "label": "https://i.imgur.com/mBFEgCj.jpg"
+        },
+        {
+          "id": "MIPA1",
+          "style": "IPA",
+          "variant": "Milkshake",
+          "beerName": "Los Tabarnacos Mangue",
+          "brewery": "Brasserie du Bas-Canada",
+          "rating": 4.22,
+          "label": "https://i.imgur.com/pmSyyVT.jpg"
+        },
+        {
+            "id": "MIPA2",
+            "style": "IPA",
+            "variant": "Milkshake",
+            "beerName": "Milkshark Tangerine",
+            "brewery": "Bellwoods Brewery",
+            "rating": 4.19,
+            "label": "https://i.imgur.com/y88Uvfy.png?1"
+          },
+          {
+            "id": "MIPA3",
+            "style": "IPA",
+            "variant": "Milkshake",
+            "beerName": "Los Tabarnacos Abricot, Mangue & Vanille",
+            "brewery": "Brasserie du Bas-Canada",
+            "rating": 4.13,
+            "label": "https://i.imgur.com/pmSyyVT.jpg"
+          },
+          {
+            "id": "MIPA4",
+            "style": "IPA",
+            "variant": "Milkshake",
+            "beerName": "Milkshark Passionfruit",
+            "brewery": "Bellwoods Brewery",
+            "rating": 4.11,
+            "label": "https://i.imgur.com/7cOPh5W.png"
+          },
+          {
+            "id": "MIPA5",
+            "style": "IPA",
+            "variant": "Milkshake",
+            "beerName": "Milkshark Raspberry",
+            "brewery": "Bellwoods Brewery",
+            "rating": 4.11,
+            "label": "https://i.imgur.com/R6EaZcw.png?1"
+          }
 ]

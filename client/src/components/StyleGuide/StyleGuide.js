@@ -2,8 +2,8 @@ import { Component }from 'react';
 import './StyleGuide.scss';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import IPA from '../assets/images/IPA.png';
-import Untappd from '../assets/images/Icon-untappd.svg';
+import IPA from '../../assets/images/IPA.png'
+import Untappd from '../../assets/images/Icon-untappd.svg';
 
 class StyleGuide extends Component {
 

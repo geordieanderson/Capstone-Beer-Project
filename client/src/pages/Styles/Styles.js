@@ -1,7 +1,8 @@
 import  { Component } from 'react';
 import axios from 'axios';
-import StyleGuide from '../../components/StyleGuide';
+import StyleGuide from '../../components/StyleGuide/StyleGuide';
 import './Styles.scss'
+import Header from '../../components/Header/Header'
 
 class Styles extends Component {
     state = {
@@ -44,6 +45,8 @@ componentDidUpdate(prevProps) {
 
 render() {
     return (
+        <>
+        <Header/>
         <main>
             <div className="stylePage__container">
                 <h2 className="stylePage__title">CRAFT BEER STYLES</h2>
@@ -54,6 +57,7 @@ render() {
             : <p>LOADING...</p>}
         </section>
         </main>
+        </>
         )
     }
 }

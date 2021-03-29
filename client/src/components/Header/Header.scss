@@ -1,0 +1,39 @@
+.header{
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.header__left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80vw;
+}
+
+
+.header__siteName{
+    font-size: 30px;
+}
+
+
+.header__logo{
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.header__nav{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: right;
+}
+
+.nav{
+    padding: 0.25rem 0rem;
+    color: black;
+    font-size: 8px;
+}
