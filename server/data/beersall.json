@@ -315,45 +315,45 @@
         "label": "https://i.imgur.com/7CiFfzO.jpg?1"
     },
     {
-        "id": "IDST1",
+        "id": "DIST1",
         "style": "Stout",
-        "variant": "Irish Dry",
+        "variant": "Dry Irish",
         "beerName": "Back Hand of God Stout",
         "brewery": "Crannóg Ales",
         "rating": 3.97,
         "label": "https://i.imgur.com/9oyFhOb.jpg"
     },
     {
-        "id": "IDST2",
+        "id": "DIST2",
         "style": "Stout",
-        "variant": "Irish Dry",
+        "variant": "Dry Irish",
         "beerName": "Black 47",
         "brewery": "Loyalist City Brewing Company",
         "rating": 3.79,
         "label": "https://i.imgur.com/0rP6tGx.jpg"
     },
     {
-        "id": "IDST3",
+        "id": "DIST3",
         "style": "Stout",
-        "variant": "Irish Dry",
+        "variant": "Dry Irish",
         "beerName": "Finnegans Irish Stout",
         "brewery": "Hoyne Brewing",
         "rating": 3.79,
         "label": "https://i.imgur.com/nu16398.jpg"
     },
     {
-        "id": "IDST4",
+        "id": "DIST4",
         "style": "Stout",
-        "variant": "Irish Dry",
+        "variant": "Dry Irish",
         "beerName": "Bryan",
         "brewery": "Foghorn Brewing Company",
         "rating": 3.79,
         "label": "https://i.imgur.com/3uRJAWc.jpg"
     },
     {
-        "id": "IDST5",
+        "id": "DIST5",
         "style": "Stout",
-        "variant": "Irish Dry",
+        "variant": "Dry Irish",
         "beerName": "The Wicklow",
         "brewery": "Citizen Brewing Company",
         "rating": 3.77,
