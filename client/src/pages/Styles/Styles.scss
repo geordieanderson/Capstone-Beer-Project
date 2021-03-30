@@ -1,5 +1,8 @@
-.stylePage__container{
-    background-color: #282c34;
+@use '../../partials/variables';
+@use '../../partials/mixins' as *;
+
+.stylePage__navbar{
+    background-color: black;
     height: 50px;
     justify-content: space-between;
     align-items: center;
@@ -8,5 +11,10 @@
 
 .stylePage__title{
     color: white;
+    font-size: 0.5rem;
+
+    @include tablet{
+        font-size: 1rem;
+    }
 }
 

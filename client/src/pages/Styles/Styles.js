@@ -48,8 +48,8 @@ render() {
         <>
         <Header/>
         <main>
-            <div className="stylePage__container">
-                <h2 className="stylePage__title">CRAFT BEER STYLES</h2>
+        <div className="stylePage__navbar">
+                <h2 className="stylePage__title">PICK STYLE FROM NAV BAR HERE</h2>
             </div>
         <section>  
             {this.state.beers.length !== 0  

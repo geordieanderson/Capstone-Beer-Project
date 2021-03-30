@@ -3,7 +3,7 @@ const router = express.Router();
 const fs = require('fs');
 
 const readBeers = () => {
-    const styleData = fs.readFileSync('./data/beers.json');
+    const styleData = fs.readFileSync('./data/test.json');
     const parsedData = JSON.parse(styleData);
     return parsedData;
 }

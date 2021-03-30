@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header">
         <div className="header__left">
             <img className="header__logo" src={Logo} alt="logo"></img>
-            <h1 className="header__siteName">CANADIAN CRAFT BEER</h1>
+            <h1 className="header__siteName">CANADIAN CRAFT BEER GUIDE</h1>
         </div>
             <div className="header__nav">
                 <NavLink to="/" style={{ textDecoration: 'none' }}><h5 className="nav">HOME</h5></NavLink>
