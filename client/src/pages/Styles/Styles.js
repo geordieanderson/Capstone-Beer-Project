@@ -3,7 +3,7 @@ import axios from 'axios';
 import StyleGuide from '../../components/StyleGuide/StyleGuide';
 import './Styles.scss'
 import Header from '../../components/Header/Header';
-import StyleNavBar from '../../components/StyleNavBar/StyleNavBar';
+import StyleNavBar2 from '../../components/StyleNavBar/StyleNavBar2';
 import StyleTopRank from '../../components/StyleTopRank/StyleTopRank';
 
 class Styles extends Component {
@@ -39,9 +39,11 @@ componentDidMount(){
 }
 
 componentDidUpdate(prevProps) {
-    const newBeerId = this.props.match.params.beerId;
-
+    let newBeerId = this.props.match.params.beerId;
+    console.log('this', this.props.match)
+    console.log('these are the prevPops', prevProps.match)
     if (prevProps.match.params.beerId !== newBeerId){
+        if (!newBeerId){newBeerId = this.state.beers[0].id}
         this.getBeerDetails(newBeerId);
     }
 }
@@ -55,7 +57,7 @@ render() {
 
     <section>  
             {this.state.beers.length !== 0  
-            ? <StyleNavBar beers={this.state.beers}/>
+            ? <StyleNavBar2 beers={this.state.beers}/>
             : <p>LOADING...</p>}
         </section>
 

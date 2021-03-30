@@ -23,7 +23,7 @@ class StyleNavBar extends Component {
         return(
             <div className="stylePage__navbar">
                 {this.state.beers.map((beer)=>(
-                    <Link key={beer.id} to={"/beers/" + beer.id} style={{ textDecoration: 'none' }} >
+                    <Link to={`/beers/${beer.id}`} key={beer.id} style={{ textDecoration: 'none' }} >
                         <h2 className="stylePage__title">{beer.style}</h2>
                     </Link>
                 ))}       
