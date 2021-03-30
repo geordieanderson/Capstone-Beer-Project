@@ -11,7 +11,7 @@ const Home = () => {
         <h1>CRAFT BEER SITE</h1>
         <h3>Project Startski!</h3>
         <img className="logo" src={Logo} alt="logo"></img>
-        <Link to="/styles"><button>GO TO STYLES</button></Link>
+        <Link to="/beers"><button>GO TO STYLES</button></Link>
       </header>
   
         </div>

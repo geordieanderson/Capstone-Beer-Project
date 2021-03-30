@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.scss';
 import Logo from '../../assets/images/hops_logo.png'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
         <div className="header">
         <div className="header__left">
-            <img className="header__logo" src={Logo} alt="logo"></img>
+            <Link to ="/"><img className="header__logo" src={Logo} alt="logo"></img></Link>
             <h1 className="header__siteName">CANADIAN CRAFT BEER GUIDE</h1>
         </div>
             <div className="header__nav">

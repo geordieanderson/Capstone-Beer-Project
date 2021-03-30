@@ -8,7 +8,8 @@ function App() {
     <BrowserRouter>
     <Switch>
       <Route path="/" exact component={Home}/>
-      <Route path="/styles" component={Styles}/>
+      <Route path="/beers" component={Styles}/>
+      <Route path="/beers/:beerId" component={Styles}/>
     </Switch>
     </BrowserRouter>
   );

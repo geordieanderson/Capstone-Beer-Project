@@ -1,17 +1,19 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
+require('dotenv').config();
+const port = process.env.PORT || 8080;
+const beerRoutes = require('./routes/beerRoutes');
 
 app.use(cors());
 app.use(express.json());
 
-require('dotenv').config();
-const port = process.env.PORT || 8080;
 
-const breweryRoutes = require('./routes/breweryRoutes');
-const beerRoutes = require('./routes/beerRoutes');
+app.use((req, res, next) =>{
+    console.log('middleware running');
+    next();
+})
 
-app.use('/breweries', breweryRoutes);
 app.use('/beers', beerRoutes);
 
 app.listen(port, () =>{

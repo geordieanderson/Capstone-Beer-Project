@@ -4,6 +4,7 @@ import StyleGuide from '../../components/StyleGuide/StyleGuide';
 import './Styles.scss'
 import Header from '../../components/Header/Header';
 import StyleNavBar from '../../components/StyleNavBar/StyleNavBar';
+//import StyleTopRank from '../../components/StyleTopRank/StyleTopRank';
 
 class Styles extends Component {
     state = {
@@ -15,7 +16,7 @@ getBeerDetails = (beerId) =>{
     axios
     .get(`http://localhost:8080/beers/${beerId}`)
     .then((beerDetails) => {
-        console.log('this is the beerDetails data', beerDetails.data)
+        console.log('individual beer data', beerDetails.data)
         this.setState({
             featureBeer: beerDetails.data
         })
@@ -39,6 +40,7 @@ componentDidMount(){
 
 componentDidUpdate(prevProps) {
     const newBeerId = this.props.match.params.beerId;
+
     if (prevProps.match.params.beerId !== newBeerId){
         this.getBeerDetails(newBeerId);
     }
@@ -46,18 +48,28 @@ componentDidUpdate(prevProps) {
 
 render() {
     return (
-        <>
-        <Header/>
-        <main>
-        <StyleNavBar/>
-        <section>  
+    <>
+    <Header/>
+
+    <main>
+
+    <section>  
             {this.state.beers.length !== 0  
-            ? <StyleGuide beer={this.state.beers}/>
+            ? <StyleNavBar beers={this.state.beers}/>
             : <p>LOADING...</p>}
         </section>
-        </main>
-        </>
-        )
+
+        <section>  
+            {this.state.featureBeer.length !== 0  
+            ? <StyleGuide beer={this.state.featureBeer}/>
+            : <p>LOADING...</p>}
+        </section>
+        
+
+
+    </main>
+    </>
+    )
     }
 }
 
