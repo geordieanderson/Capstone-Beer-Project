@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "AIPA",
         "style": "American IPA",
         "description": "American-style India pale ales are perceived to have medium-high to intense hop bitterness, flavor and aroma with medium-high alcohol content. The style is further characterized by floral, fruity, citrus-like, piney, resinous, or sulfur-like American-variety hop character. Note that one or more of these American-variety hop characters is the perceived end, but the hop characters may be a result of the skillful use of hops of other national origins. The use of water with high mineral content results in a crisp, dry beer. This pale gold to deep copper-colored ale has a full, flowery hop aroma and may have a strong hop flavor (in addition to the perception of hop bitterness). India pale ales possess medium maltiness which contributes to a medium body. Fruity-ester flavors and aromas are moderate to very strong. Diacetyl can be absent or may be perceived at very low levels. Chill and/or hop haze is allowable at cold temperatures. (English and citrus-like American hops are considered enough of a distinction justifying separate American-style IPA and English-style IPA categories or subcategories. Hops of other origins may be used for bitterness or approximating traditional American or English character. See English-style India Pale Ale",
         "ibuMin": 50,
@@ -15,7 +15,7 @@
         "foodSweet": "Persimmon Rice Pudding",
         "topRank": [
             {
-                "id": "AIPA1",
+                "id": "AIPA001",
                 "style": "IPA",
                 "variant": "American",
                 "beerName": "Bank Hotel",
@@ -24,7 +24,7 @@
                 "label": "https://i.imgur.com/6l1o7pq.jpg"
             },
             {
-                "id": "AIPA2",
+                "id": "AIPA002",
                 "style": "IPA",
                 "variant": "American",
                 "beerName": "Nordet IPA",
@@ -33,7 +33,7 @@
                 "label": "https://i.imgur.com/ZlEhb0p.jpg"
             },
             {
-                "id": "AIPA3",
+                "id": "AIPA003",
                 "style": "IPA",
                 "variant": "American",
                 "beerName": "HYPA #9",
@@ -42,7 +42,7 @@
                 "label": "https://i.imgur.com/mBFEgCj.jpg"
             },
             {
-                "id": "AIPA4",
+                "id": "AIPA004",
                 "style": "IPA",
                 "variant": "American",
                 "beerName": "HYPA #5",
@@ -51,7 +51,7 @@
                 "label": "https://i.imgur.com/mBFEgCj.jpg"
             },
             {
-                "id": "AIPA5",
+                "id": "AIPA005",
                 "style": "IPA",
                 "variant": "American",
                 "beerName": "HYPA #4",
@@ -62,7 +62,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "EIPA",
         "style": "English IPA",
         "description": "Most traditional interpretations of English-style India pale ales are characterized by medium-high hop bitterness with a medium to medium-high alcohol content. Hops from a variety of origins may be used to contribute to a high hopping rate. Earthy and herbal English-variety hop character is the perceived end, but may be a result of the skillful use of hops of other national origins. The use of water with high mineral content results in a crisp, dry beer, sometimes with subtle and balanced character of sulfur compounds. This pale gold to deep copper-colored ale has a medium to high, flowery hop aroma and may have a medium to strong hop flavor (in addition to the hop bitterness). English-style India pale ales possess medium maltiness and body. Fruity-ester flavors and aromas are moderate to very strong. Diacetyl can be absent or may be perceived at very low levels. Chill haze is allowable at cold temperatures. Hops of other origins may be used for bitterness or approximating traditional English character.",
         "ibuMin": 35,
@@ -77,7 +77,7 @@
         "foodSweet": "Ginger Spice Cake",
         "topRank": [
             {
-                "id": "EIPA1",
+                "id": "EIPA001",
                 "style": "IPA",
                 "variant": "English",
                 "beerName": "Not Looking For A New England",
@@ -86,7 +86,7 @@
                 "label": "https://i.imgur.com/ZayvyF4.jpg?1"
             },
             {
-                "id": "EIPA2",
+                "id": "EIPA002",
                 "style": "IPA",
                 "variant": "English",
                 "beerName": "Van Full of Weirdos",
@@ -95,7 +95,7 @@
                 "label": "https://i.imgur.com/Ae2WEsc.jpg"
             },
             {
-                "id": "EIPA3",
+                "id": "EIPA003",
                 "style": "IPA",
                 "variant": "English",
                 "beerName": "Jed IPA",
@@ -104,7 +104,7 @@
                 "label": "https://i.imgur.com/QHgYRzp.jpg?1"
             },
             {
-                "id": "EIPA4",
+                "id": "EIPA004",
                 "style": "IPA",
                 "variant": "English",
                 "beerName": "Nasty Habit",
@@ -113,7 +113,7 @@
                 "label": "https://i.imgur.com/ByNKHw0.jpg"
             },
             {
-                "id": "EIPA5",
+                "id": "EIPA005",
                 "style": "IPA",
                 "variant": "English",
                 "beerName": "Englishish IPA",
@@ -124,7 +124,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "NEIPA",
         "style": "New England IPA",
         "description": "Color: Straw to deep gold\r\n\r\nClarity: Low to very high degree of cloudiness is typical of these beers. Starch, yeast, hop, protein and/or other compounds contribute to a wide range of hazy appearance within this category.\r\n\r\nPerceived Malt Aroma & Flavor: Low to low-medium malt aroma and flavor may be present\r\n\r\nPerceived Hop Aroma & Flavor: Medium-high to very high hop aroma and flavor are present, with attributes typical of hops from any origin\r\n\r\nPerceived Bitterness: Medium-low to medium\r\n\r\nFermentation Characteristics: Low to medium fruity-estery aroma and ﬂavor may be present, but are usually overwhelmed by hop fruitiness. Diacetyl should not be perceived.\r\n\r\nBody: Medium-low to medium-high. Perceived silky or full mouthfeel may contribute to overall flavor profile.\r\n\r\nAdditional notes: Grist may include a small amount of oat, wheat or other adjuncts to promote haziness. Descriptors such as “juicy” are often used to describe the taste and aroma hop-derived attributes present in these beers.",
         "ibuMin": 50,
@@ -139,16 +139,7 @@
         "foodSweet": "Mache Creme Brulee",
         "topRank": [
             {
-                "id": "EIPA1",
-                "style": "IPA",
-                "variant": "English",
-                "beerName": "Not Looking For A New England",
-                "brewery": "The Dandy Brewing Company",
-                "rating": 3.73,
-                "label": "https://i.imgur.com/ZayvyF4.jpg?1"
-            },
-            {
-                "id": "NEIPA1",
+                "id": "NEIPA001",
                 "style": "IPA",
                 "variant": "New England",
                 "beerName": "Simcoe Mosaïc",
@@ -157,7 +148,7 @@
                 "label": "https://i.imgur.com/UVL8w36.jpg?1"
             },
             {
-                "id": "NEIPA2",
+                "id": "NEIPA002",
                 "style": "IPA",
                 "variant": "New England",
                 "beerName": "IPA du Nord-Est",
@@ -166,7 +157,7 @@
                 "label": "https://i.imgur.com/i50idFY.jpg"
             },
             {
-                "id": "NEIPA3",
+                "id": "NEIPA003",
                 "style": "IPA",
                 "variant": "New England",
                 "beerName": "Simcoe Citra",
@@ -175,7 +166,7 @@
                 "label": "https://i.imgur.com/ri6fC5I.jpg?1"
             },
             {
-                "id": "NEIPA4",
+                "id": "NEIPA004",
                 "style": "IPA",
                 "variant": "New England",
                 "beerName": "New England IPA",
@@ -184,7 +175,7 @@
                 "label": "https://i.imgur.com/0UD9o1b.jpg?1"
             },
             {
-                "id": "NEIPA5",
+                "id": "NEIPA005",
                 "style": "IPA",
                 "variant": "New England",
                 "beerName": "Bone Tree",
@@ -195,7 +186,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "APA",
         "style": "American Pale Ale",
         "description": "American pale ales range from deep golden to copper in color. The style is characterized by fruity, floral and citrus-like American-variety hop character producing medium to medium-high hop bitterness, flavor, and aroma. Note that the \"traditional\" style of this beer has its origins with certain floral, fruity, citrus-like, piney, resinous, or sulfur-like American hop varietals. One or more of these hop characters is the perceived end, but the perceived hop characters may be a result of the skillful use of hops of other national origins. American pale ales have medium body and low to medium maltiness. Low caramel character is allowable. Fruity-ester flavor and aroma should be moderate to strong. Diacetyl should be absent or present at very low levels. Chill haze is allowable at cold temperatures.",
         "ibuMin": 30,
@@ -210,7 +201,7 @@
         "foodSweet": "Apple Pie",
         "topRank": [
             {
-                "id": "APA1",
+                "id": "APA001",
                 "style": "Pale Ale",
                 "variant": "American",
                 "beerName": "OK Merci",
@@ -219,7 +210,7 @@
                 "label": "https://i.imgur.com/g5xMWF0.png?1"
             },
             {
-                "id": "APA2",
+                "id": "APA002",
                 "style": "Pale Ale",
                 "variant": "American",
                 "beerName": "Dernier Cycle",
@@ -228,7 +219,7 @@
                 "label": "https://i.imgur.com/4lxhiUU.jpg"
             },
             {
-                "id": "APA3",
+                "id": "APA003",
                 "style": "Pale Ale",
                 "variant": "American",
                 "beerName": "Fruit Helmet (Guava / Passionfruit / Raspberry)",
@@ -237,7 +228,7 @@
                 "label": "https://i.imgur.com/DONC92w.png?1"
             },
             {
-                "id": "APA4",
+                "id": "APA004",
                 "style": "Pale Ale",
                 "variant": "American",
                 "beerName": "Not So Doomed Après Tout",
@@ -246,7 +237,7 @@
                 "label": "https://i.imgur.com/Y8N3TEc.jpg"
             },
             {
-                "id": "APA5",
+                "id": "APA005",
                 "style": "Pale Ale",
                 "variant": "American",
                 "beerName": "Sierra Yakima",
@@ -257,7 +248,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "EPA",
         "style": "English Pale Ale",
         "description": "Classic English pale ales are golden to copper colored and display earthy, herbal English-variety hop character. Note that \"earthy, herbal English-variety hop character\" is the perceived end, but may be a result of the skillful use of hops of other national origins. Medium to high hop bitterness, flavor, and aroma should be evident. This medium-bodied pale ale has low to medium malt flavor and aroma. Low caramel character is allowable. Fruity-ester flavors and aromas are moderate to strong. Chill haze may be in evidence only at very cold temperatures. The absence of diacetyl is desirable, though, diacetyl (butterscotch character) is acceptable and characteristic when at very low levels.",
         "ibuMin": 20,
@@ -272,7 +263,7 @@
         "foodSweet": "Maple Bread Pudding",
         "topRank": [
             {
-                "id": "EPA1",
+                "id": "EPA001",
                 "style": "Pale Ale",
                 "variant": "English",
                 "beerName": "King's English",
@@ -281,7 +272,7 @@
                 "label": "https://i.imgur.com/vsKyqOs.png?1"
             },
             {
-                "id": "EPA2",
+                "id": "EPA002",
                 "style": "Pale Ale",
                 "variant": "English",
                 "beerName": "Kitchen Party",
@@ -290,7 +281,7 @@
                 "label": "https://i.imgur.com/nA1mMGu.jpg"
             },
             {
-                "id": "EPA3",
+                "id": "EPA003",
                 "style": "Pale Ale",
                 "variant": "English",
                 "beerName": "33B-EXP.006.MkI - Orange Oat Pale Ale",
@@ -299,7 +290,7 @@
                 "label": "https://i.imgur.com/3w1v92k.jpg"
             },
             {
-                "id": "EPA4",
+                "id": "EPA004",
                 "style": "Pale Ale",
                 "variant": "English",
                 "beerName": "Hops And Sickle",
@@ -308,7 +299,7 @@
                 "label": "https://i.imgur.com/ri9JMPe.png"
             },
             {
-                "id": "EPA5",
+                "id": "EPA005",
                 "style": "Pale Ale",
                 "variant": "English",
                 "beerName": "Gut View Amber Ale",
@@ -319,7 +310,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "NEPA",
         "style": "New England Pale Ale",
         "description": "Color: Straw to deep gold\r\n\r\nClarity: Low to very high degree of cloudiness is typical of these beers. Starch, yeast, hop, protein and/or other compounds contribute to a wide range of hazy appearance within this category.\r\n\r\nPerceived Malt Aroma & Flavor: Low to low-medium malt aroma and flavor may be present\r\n\r\nPerceived Hop Aroma & Flavor: Medium-high to very high hop aroma and flavor are present, with attributes typical of hops from any origin.\r\n\r\nPerceived Bitterness: Low to medium. Perceived impression of bitterness is soft and well-integrated into overall balance, and may differ significantly from measured or calculated IBU levels.\r\n\r\nFermentation Characteristics: Low to medium fruity-estery aroma and ﬂavor may be present, but are usually overwhelmed by hop fruitiness. Diacetyl should not be perceived.\r\n\r\nBody: Medium-low to medium-high. Perceived silky or full mouthfeel may contribute to overall flavor profile.\r\n\r\nAdditional notes: Grist may include a small amount of oat, wheat or other adjuncts to promote haziness. Descriptors such as “juicy” are often used to describe the taste and aroma hop-derived attributes present in these beers.",
         "ibuMin": 30,
@@ -334,7 +325,7 @@
         "foodSweet": "Persimmon Rice Pudding",
         "topRank": [
             {
-                "id": "NEPA1",
+                "id": "NEPA001",
                 "style": "Pale Ale",
                 "variant": "New England",
                 "beerName": "Marigold",
@@ -343,7 +334,7 @@
                 "label": "https://i.imgur.com/Y0oSyKz.png"
             },
             {
-                "id": "NEPA2",
+                "id": "NEPA002",
                 "style": "Pale Ale",
                 "variant": "New England",
                 "beerName": "CUMULUS",
@@ -352,7 +343,7 @@
                 "label": "https://i.imgur.com/F1fLSSK.jpg"
             },
             {
-                "id": "NEPA3",
+                "id": "NEPA003",
                 "style": "Pale Ale",
                 "variant": "New England",
                 "beerName": "Couronne Solaire",
@@ -361,7 +352,7 @@
                 "label": "https://i.imgur.com/p2xmCn1.jpg"
             },
             {
-                "id": "NEPA4",
+                "id": "NEPA004",
                 "style": "Pale Ale",
                 "variant": "New England",
                 "beerName": "SUPREME",
@@ -370,7 +361,7 @@
                 "label": "https://i.imgur.com/4l26LWP.jpg?1"
             },
             {
-                "id": "NEPA5",
+                "id": "NEPA005",
                 "style": "Pale Ale",
                 "variant": "New England",
                 "beerName": "Super Saturation",
@@ -381,7 +372,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "OST",
         "style": "Oatmeal Stout",
         "description": "Oatmeal stouts include oatmeal in their grist, resulting in a pleasant, full flavor and a smooth profile that is rich without being grainy. A roasted malt character which is caramel-like and chocolate-like should be evident - smooth and not bitter. Coffee-like roasted barley and roasted malt aromas (chocolate and nut-like) are prominent. Color is dark brown to black. Bitterness is moderate, not high. Hop flavor and aroma are optional but should not overpower the overall balance if present. This is a medium- to full- bodied beer, with minimal fruity esters. Diacetyl should be absent or at extremely low levels. Original gravity range and alcohol levels are indicative of English tradition of oatmeal stout.",
         "ibuMin": 20,
@@ -396,7 +387,7 @@
         "foodSweet": "Sweet Potato Cheesecake",
         "topRank": [
             {
-                "id": "OST1",
+                "id": "OST001",
                 "style": "Stout",
                 "variant": "Oatmeal",
                 "beerName": "Ships In the Morning",
@@ -405,7 +396,7 @@
                 "label": "https://i.imgur.com/iEwHaf0.png"
             },
             {
-                "id": "OST2",
+                "id": "OST002",
                 "style": "Stout",
                 "variant": "Oatmeal",
                 "beerName": "Cereal Killer",
@@ -414,7 +405,7 @@
                 "label": "https://i.imgur.com/OX2SP5t.jpg?1"
             },
             {
-                "id": "OST3",
+                "id": "OST003",
                 "style": "Stout",
                 "variant": "Oatmeal",
                 "beerName": "Oatmeal Stout",
@@ -423,7 +414,7 @@
                 "label": "https://i.imgur.com/bCSekZS.png?1"
             },
             {
-                "id": "OST4",
+                "id": "OST004",
                 "style": "Stout",
                 "variant": "Oatmeal",
                 "beerName": "Gasket de Tête",
@@ -432,7 +423,7 @@
                 "label": "https://i.imgur.com/2Bsv4lR.jpg"
             },
             {
-                "id": "OST5",
+                "id": "OST005",
                 "style": "Stout",
                 "variant": "Oatmeal",
                 "beerName": "Perfect Storm (Barrel Aged)",
@@ -443,7 +434,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "DIST",
         "style": "Dry Irish Stout",
         "description": "Dry stouts have an initial malt and light caramel flavor profile with a distinctive dry-roasted bitterness in the finish. Dry stouts achieve a dry-roasted character through the use of roasted barley. The emphasis of coffee-like roasted barley and a moderate degree of roasted malt aromas define much of the character. Some slight acidity may be perceived but is not necessary. European hop aroma and flavor should be low or not perceived. Dry stouts have medium-light to medium body. Fruity esters are minimal and overshadowed by malt, high hop bitterness, and roasted barley character. Diacetyl (butterscotch) should be very low or not perceived. Head retention and rich character should be part of its visual character.",
         "ibuMin": 30,
@@ -458,7 +449,7 @@
         "foodSweet": "Chocolate Desserts",
         "topRank": [
             {
-                "id": "DIST1",
+                "id": "DIST001",
                 "style": "Stout",
                 "variant": "Dry Irish",
                 "beerName": "Back Hand of God Stout",
@@ -467,7 +458,7 @@
                 "label": "https://i.imgur.com/9oyFhOb.jpg"
             },
             {
-                "id": "DIST2",
+                "id": "DIST002",
                 "style": "Stout",
                 "variant": "Dry Irish",
                 "beerName": "Black 47",
@@ -476,7 +467,7 @@
                 "label": "https://i.imgur.com/0rP6tGx.jpg"
             },
             {
-                "id": "DIST3",
+                "id": "DIST003",
                 "style": "Stout",
                 "variant": "Dry Irish",
                 "beerName": "Finnegans Irish Stout",
@@ -485,7 +476,7 @@
                 "label": "https://i.imgur.com/nu16398.jpg"
             },
             {
-                "id": "DIST4",
+                "id": "DIST004",
                 "style": "Stout",
                 "variant": "Dry Irish",
                 "beerName": "Bryan",
@@ -494,7 +485,7 @@
                 "label": "https://i.imgur.com/3uRJAWc.jpg"
             },
             {
-                "id": "DIST5",
+                "id": "DIST005",
                 "style": "Stout",
                 "variant": "Dry Irish",
                 "beerName": "The Wicklow",
@@ -505,7 +496,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "BPO",
         "style": "Brown Porter",
         "description": "Brown porters are mid to dark brown (may have red tint) in color. No roast barley or strong burnt/black malt character should be perceived. Low to medium malt sweetness, caramel and chocolate is acceptable along with medium hop bitterness. This is a lightto medium-bodied beer. Fruity esters are acceptable. Hop flavor and aroma may vary from being negligible to medium in character.",
         "ibuMin": 20,
@@ -520,7 +511,7 @@
         "foodSweet": "Chocolate Peanut Butter Cookies",
         "topRank": [
             {
-                "id": "BPO1",
+                "id": "BPO001",
                 "style": "Porter",
                 "variant": "Brown",
                 "beerName": "Mocha Machine",
@@ -529,7 +520,7 @@
                 "label": "https://i.imgur.com/kOWK3LM.png"
             },
             {
-                "id": "BPO2",
+                "id": "BPO002",
                 "style": "Porter",
                 "variant": "Brown",
                 "beerName": "Harry Porter and The Bourbon Soaked Vanilla Bean",
@@ -538,7 +529,7 @@
                 "label": "https://i.imgur.com/N90spR0.jpg"
             },
             {
-                "id": "BPO3",
+                "id": "BPO003",
                 "style": "Porter",
                 "variant": "Brown",
                 "beerName": "Correctamundo",
@@ -547,7 +538,7 @@
                 "label": "https://i.imgur.com/wv9jFnK.jpg"
             },
             {
-                "id": "BPO4",
+                "id": "BPO004",
                 "style": "Porter",
                 "variant": "Brown",
                 "beerName": "Robust Porter W/ Vanilla",
@@ -556,7 +547,7 @@
                 "label": "https://i.imgur.com/cjgMCQs.png?1"
             },
             {
-                "id": "BPO5",
+                "id": "BPO005",
                 "style": "Porter",
                 "variant": "Brown",
                 "beerName": "T-Rex Porter",
@@ -567,7 +558,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "IPO",
         "style": "Imperial Porter",
         "description": "American-style imperial porters are black in color. No roast barley or strong burnt/astringent black malt character should be perceived. Medium malt, caramel and cocoa-like sweetness. Hop bitterness is perceived at a medium-low to medium level. Hop flavor and aroma may vary from being low to medium-high. This is a full bodied beer. Ale-like fruity esters should be evident but not overpowering and compliment hop character and malt derived sweetness. Diacetyl (butterscotch) levels should be absent.",
         "ibuMin": 35,
@@ -582,7 +573,7 @@
         "foodSweet": "Butterscotch Brownies",
         "topRank": [
             {
-                "id": "IPO1",
+                "id": "IPO001",
                 "style": "Porter",
                 "variant": "Imperial",
                 "beerName": "2020 Bourbon Barrel-Aged Imperial Porter",
@@ -591,7 +582,7 @@
                 "label": "https://i.imgur.com/Q4SnFxs.jpg"
             },
             {
-                "id": "IPO2",
+                "id": "IPO002",
                 "style": "Porter",
                 "variant": "Imperial",
                 "beerName": "No. 13 Tennessee",
@@ -600,7 +591,7 @@
                 "label": "https://i.imgur.com/HZPHSIA.jpg"
             },
             {
-                "id": "IPO3",
+                "id": "IPO003",
                 "style": "Porter",
                 "variant": "Imperial",
                 "beerName": "B52",
@@ -609,7 +600,7 @@
                 "label": "https://i.imgur.com/UQz3I4S.jpg"
             },
             {
-                "id": "IPO4",
+                "id": "IPO004",
                 "style": "Porter",
                 "variant": "Imperial",
                 "beerName": "Barrel Aged Imperial Porter 2017",
@@ -618,7 +609,7 @@
                 "label": "https://i.imgur.com/9EsudeN.jpg"
             },
             {
-                "id": "IPO5",
+                "id": "IPO005",
                 "style": "Porter",
                 "variant": "Imperial",
                 "beerName": "Bounty Hunter",
@@ -629,7 +620,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "ALAG",
         "style": "American Lager",
         "description": "Color: Straw to gold\r\n\r\nClarity: Appearance should be bright; chill haze should not be present\r\n\r\nPerceived Malt Aroma & Flavor: Medium-low to medium\r\n\r\nPerceived Hop Aroma & Flavor: Hop aroma and ﬂavor is medium to high. While traditional versions exhibit hop-derived attribute typical of noble-type hops, contemporary versions will exhibit hop and aroma attributes typical of a wide range of American hop varieties, including citrus, fruit-like or others.\r\n\r\nPerceived Bitterness: Medium to high\r\n\r\nFermentation Characteristics: DMS, fruity-estery and diacetyl aromas and flavors should be absent.\r\n\r\nBody: Medium-low to medium\r\n\r\nAdditional notes: Up to 25% corn and/or rice in the grist should be used. Beers in this category diverge from American-style lagers typical of the pre-Prohibition era by virtue of a wide range of hop aroma and flavor attributes.\r\nWhen using these guidelines as the basis for evaluating entries at competitions, organizers may wish to subcategorize this category into rice and corn subcategories, or may wish to group Pre-Prohibition and Contemporary American-Style Pilseners as subcategories.",
         "ibuMin": 25,
@@ -644,7 +635,7 @@
         "foodSweet": "Kettle Corn",
         "topRank": [
             {
-                "id": "ALAG1",
+                "id": "ALAG001",
                 "style": "Lager",
                 "variant": "American",
                 "beerName": "Nightwatch Coffee Lager",
@@ -653,7 +644,7 @@
                 "label": "https://i.imgur.com/mBPNzJG.jpg"
             },
             {
-                "id": "ALAG2",
+                "id": "ALAG002",
                 "style": "Lager",
                 "variant": "American",
                 "beerName": "Ciudad Paloma",
@@ -662,7 +653,7 @@
                 "label": "https://i.imgur.com/WRvPnmO.jpg?1"
             },
             {
-                "id": "ALAG3",
+                "id": "ALAG003",
                 "style": "Lager",
                 "variant": "American",
                 "beerName": "Open Invite W/ Nelson Sauvin",
@@ -671,7 +662,7 @@
                 "label": "https://i.imgur.com/yeKaOWk.jpg"
             },
             {
-                "id": "ALAG4",
+                "id": "ALAG004",
                 "style": "Lager",
                 "variant": "American",
                 "beerName": "Mandarin Crush Lager",
@@ -680,7 +671,7 @@
                 "label": "https://i.imgur.com/YPqmZqT.png"
             },
             {
-                "id": "ALAG5",
+                "id": "ALAG005",
                 "style": "Lager",
                 "variant": "American",
                 "beerName": "Margarita Cerveza",
@@ -691,7 +682,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "VLAG",
         "style": "Vienna Lager",
         "description": "Beers in this category are reddish brown or copper colored. They are medium in body. The beer is characterized by malty aroma and slight malt sweetness. The malt aroma and flavor should have a notable degree of toasted and/or slightly roasted malt character. Hop bitterness is clean and crisp. Noble-type hop aromas and flavors should be low or mild. Diacetyl, chill haze and ale-like fruity esters should not be perceived.",
         "ibuMin": 22,
@@ -706,7 +697,7 @@
         "foodSweet": "Almond Biscotti",
         "topRank": [
             {
-                "id": "VLAG1",
+                "id": "VLAG001",
                 "style": "Lager",
                 "variant": "Vienna",
                 "beerName": "Foedered Lager",
@@ -715,7 +706,7 @@
                 "label": "https://i.imgur.com/2WypFqX.jpg"
             },
             {
-                "id": "VLAG2",
+                "id": "VLAG002",
                 "style": "Lager",
                 "variant": "Vienna",
                 "beerName": "City of Dreams",
@@ -724,7 +715,7 @@
                 "label": "https://i.imgur.com/gNHvIhM.jpg"
             },
             {
-                "id": "VLAG3",
+                "id": "VLAG003",
                 "style": "Lager",
                 "variant": "Vienna",
                 "beerName": "Belvédère",
@@ -733,7 +724,7 @@
                 "label": "https://i.imgur.com/IwHGeBg.jpg?1"
             },
             {
-                "id": "VLAG4",
+                "id": "VLAG004",
                 "style": "Lager",
                 "variant": "Vienna",
                 "beerName": "India Vienna Lager",
@@ -742,7 +733,7 @@
                 "label": "https://i.imgur.com/qrCf9d9.jpg"
             },
             {
-                "id": "VLAG5",
+                "id": "VLAG005",
                 "style": "Lager",
                 "variant": "Vienna",
                 "beerName": "King's Horn Vienna Lager",
@@ -753,7 +744,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "BPIL",
         "style": "Bohemian Pilsner",
         "description": "Traditional Bohemian Pilseners are medium bodied, and they can be as dark as a light amber color. This style balances moderate bitterness and noble-type hop aroma and flavor with a malty, slightly sweet, medium body. Extremely low levels of diacetyl and low levels of sweet corn-like dimethylsulfide (DMS) character, if perceived, are characteristic of this style and both may accent malt aroma. A toasted-, biscuit-like, bready malt character along with low levels of sulfur compounds may be evident. There should be no chill haze. Its head should be dense and rich.",
         "ibuMin": 30,
@@ -768,7 +759,7 @@
         "foodSweet": "Shortbread Cookies",
         "topRank": [
             {
-                "id": "BPIL1",
+                "id": "BPIL001",
                 "style": "Pilsner",
                 "variant": "Bohemian",
                 "beerName": "Pils Partout Justice Nulle Part",
@@ -777,7 +768,7 @@
                 "label": "https://i.imgur.com/kcjqWzq.jpg"
             },
             {
-                "id": "BPIL2",
+                "id": "BPIL002",
                 "style": "Pilsner",
                 "variant": "Bohemian",
                 "beerName": "Il Était Une Fois : La Mort",
@@ -786,7 +777,7 @@
                 "label": "https://i.imgur.com/LI3606r.jpg"
             },
             {
-                "id": "BPIL3",
+                "id": "BPIL003",
                 "style": "Pilsner",
                 "variant": "Bohemian",
                 "beerName": "Sklepník V Oceli",
@@ -795,7 +786,7 @@
                 "label": "https://i.imgur.com/wHpQykZ.jpg"
             },
             {
-                "id": "BPIL4",
+                "id": "BPIL004",
                 "style": "Pilsner",
                 "variant": "Bohemian",
                 "beerName": "Coup de Foudre - Výčepnír",
@@ -804,7 +795,7 @@
                 "label": "https://i.imgur.com/q33xlip.jpg"
             },
             {
-                "id": "BPIL5",
+                "id": "BPIL005",
                 "style": "Pilsner",
                 "variant": "Bohemian",
                 "beerName": "Pilsner",
@@ -815,7 +806,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "GPIL",
         "style": "German Pilsner",
         "description": "A classic German Pilsener is very light straw or golden in color and well hopped. Perception of hop bitterness is medium to high. Noble-type hop aroma and flavor are moderate and quite obvious. It is a well-attenuated, medium-light bodied beer, but a malty residual sweetness can be perceived in aroma and flavor. Very low levels of sweet corn-like dimethylsulfide (DMS) character are below most beer drinkers' taste thresholds and are usually not detectable except to the trained or sensitive palate. Other fermentation or hop related sulfur compounds, when perceived at low levels, may be characteristic of this style. Fruity esters and diacetyl should not be perceived. There should be no chill haze. Its head should be dense and rich.",
         "ibuMin": 25,
@@ -830,7 +821,7 @@
         "foodSweet": "Shortbread Cookies",
         "topRank": [
             {
-                "id": "GPIL1",
+                "id": "GPIL001",
                 "style": "Pilsner",
                 "variant": "German",
                 "beerName": "Il Était Une Fois : Soiiiif",
@@ -839,7 +830,7 @@
                 "label": "https://i.imgur.com/tvLQoFE.jpg"
             },
             {
-                "id": "GPIL2",
+                "id": "GPIL002",
                 "style": "Pilsner",
                 "variant": "German",
                 "beerName": "Fiore",
@@ -848,7 +839,7 @@
                 "label": "https://i.imgur.com/ORUd3hS.jpg"
             },
             {
-                "id": "GPIL3",
+                "id": "GPIL003",
                 "style": "Pilsner",
                 "variant": "German",
                 "beerName": "Alibi Room - Keller Pils",
@@ -857,7 +848,7 @@
                 "label": "https://i.imgur.com/GeAQ2B3.jpg?1"
             },
             {
-                "id": "GPIL4",
+                "id": "GPIL004",
                 "style": "Pilsner",
                 "variant": "German",
                 "beerName": "Fritzi!",
@@ -866,7 +857,7 @@
                 "label": "https://i.imgur.com/FXNVZmr.jpg"
             },
             {
-                "id": "GPIL5",
+                "id": "GPIL005",
                 "style": "Pilsner",
                 "variant": "German",
                 "beerName": "Holz Pils",
@@ -877,7 +868,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "HWHT",
         "style": "Hefeweizen",
         "description": "The aroma and flavor of a Weissbier with yeast is decidedly fruity and phenolic. The phenolic characteristics are often described as clove-, nutmeg-like, mildly smoke-like or even vanilla-like. Banana-like esters should be present at low to medium-high levels. These beers are made with at least 50 percent malted wheat, and hop rates are quite low. Hop flavor and aroma are absent or present at very low levels. Weissbier is well attenuated and very highly carbonated and a medium to full bodied beer. The color is very pale to pale amber. Because yeast is present, the beer will have yeast flavor and a characteristically fuller mouthfeel and may be appropriately very cloudy. No diacetyl should be perceived.",
         "ibuMin": 10,
@@ -892,7 +883,7 @@
         "foodSweet": "Key Lime Pie",
         "topRank": [
             {
-                "id": "HWHT1",
+                "id": "HWHT001",
                 "style": "Wheat Beer",
                 "variant": "Hefeweizen",
                 "beerName": "Entangled Hopfenweisse",
@@ -901,7 +892,7 @@
                 "label": "https://i.imgur.com/hy4c9nL.jpg"
             },
             {
-                "id": "HWHT2",
+                "id": "HWHT002",
                 "style": "Wheat Beer",
                 "variant": "Hefeweizen",
                 "beerName": "R.R. #4 - Oak-Aged Peach Hefeweizen",
@@ -910,7 +901,7 @@
                 "label": "https://i.imgur.com/GyOPhuX.jpg"
             },
             {
-                "id": "HWHT3",
+                "id": "HWHT003",
                 "style": "Wheat Beer",
                 "variant": "Hefeweizen",
                 "beerName": "Framboise Noir",
@@ -919,7 +910,7 @@
                 "label": "https://i.imgur.com/TMnHrIi.jpg"
             },
             {
-                "id": "HWHT4",
+                "id": "HWHT004",
                 "style": "Wheat Beer",
                 "variant": "Hefeweizen",
                 "beerName": "Hefe",
@@ -928,7 +919,7 @@
                 "label": "https://i.imgur.com/rn3Z1Y8.jpg"
             },
             {
-                "id": "HWHT5",
+                "id": "HWHT005",
                 "style": "Wheat Beer",
                 "variant": "Hefeweizen",
                 "beerName": "Nativité Blonde",
@@ -939,7 +930,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "WITWHT",
         "style": "Witbier",
         "description": "Belgian white ales are very pale in color and are brewed using unmalted wheat and malted barley and are spiced with coriander and orange peel. Coriander and light orange peel aroma should be perceived as such or as an unidentified spiciness. Phenolic spiciness and yeast flavors may be evident at mild levels. These beers are traditionally bottle conditioned and served cloudy. An unfiltered starch and yeast haze should be part of the appearance. The low to medium body should have some degree of creaminess from wheat starch. The style is further characterized by the use of noble-type hops to achieve low hop bitterness and little to no apparent hop flavor. This beer has no diacetyl and a low to medium fruity-ester level. Mild acidity is appropriate.",
         "ibuMin": 10,
@@ -954,7 +945,7 @@
         "foodSweet": "Panna Cotta",
         "topRank": [
             {
-                "id": "WITWHT1",
+                "id": "WITWHT001",
                 "style": "Wheat Beer",
                 "variant": "Witbier",
                 "beerName": "Vieille Blanche Du P'tit Baril",
@@ -963,7 +954,7 @@
                 "label": "https://i.imgur.com/ubvOJDx.jpg"
             },
             {
-                "id": "WITWHT2",
+                "id": "WITWHT002",
                 "style": "Wheat Beer",
                 "variant": "Witbier",
                 "beerName": "Dutch Sour Wit",
@@ -972,7 +963,7 @@
                 "label": "https://i.imgur.com/u5uGL5A.png?1"
             },
             {
-                "id": "WITWHT3",
+                "id": "WITWHT003",
                 "style": "Wheat Beer",
                 "variant": "Witbier",
                 "beerName": "Sunkicked",
@@ -981,7 +972,7 @@
                 "label": "https://i.imgur.com/M9Os1Jw.jpg"
             },
             {
-                "id": "WITWHT4",
+                "id": "WITWHT004",
                 "style": "Wheat Beer",
                 "variant": "Witbier",
                 "beerName": "Sauvignon Blanche Réserve",
@@ -990,7 +981,7 @@
                 "label": "https://i.imgur.com/BqnAL4g.jpg?1"
             },
             {
-                "id": "WITWHT5",
+                "id": "WITWHT005",
                 "style": "Wheat Beer",
                 "variant": "Witbier",
                 "beerName": "Farmhouse Blanche",
@@ -1001,7 +992,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "SOUR",
         "style": "Sour",
         "description": "American sour ales can be very light to black or take on the color of added fruits or other ingredients. There is no Brettanomyces character in this style of beer. Wood- and barrel-aged sour ales are classified elsewhere. If acidity is present it is usually in the form of lactic, acetic and other organic acids naturally developed with acidified malt in the mash or in fermentation by the use of various microorganisms including certain bacteria and yeasts. Acidic character can be a complex balance of several types of acid and characteristics of age. The evolution of natural acidity develops balanced complexity. Residual flavors that come from liquids previously aged in a barrel such as bourbon or sherry should not be present. Wood vessels may be used during the fermentation and aging process, but wood-derived flavors such as vanillin must not be present. In darker versions, roasted malt, caramel-like and chocolate-like characters should be subtle in both flavor and aroma. American sour may have evident full range of hop aroma and hop bitterness with a full range of body. Estery and fruity-ester characters are evident, sometimes moderate and sometimes intense, yet balanced. Diacetyl and sweet corn-like dimethylsulfide (DMS) should not be perceived. Chill haze, bacteria and yeast-induced haze are allowable at low to medium levels at any temperature. Fruited American-Style Sour Ales will exhibit fruit flavors in harmonious balance with other characters.",
         "ibuMin": "Varies",
@@ -1016,7 +1007,7 @@
         "foodSweet": "Creamy Desserts with Fruit",
         "topRank": [
             {
-                "id": "SOUR1",
+                "id": "SOUR001",
                 "style": "Sour",
                 "variant": "Sour",
                 "beerName": "BREW JUICE - Berry Poppins",
@@ -1025,7 +1016,7 @@
                 "label": "https://i.imgur.com/WlY5mus.jpg"
             },
             {
-                "id": "SOUR2",
+                "id": "SOUR002",
                 "style": "Sour",
                 "variant": "Sour",
                 "beerName": "Game, Blouses",
@@ -1034,7 +1025,7 @@
                 "label": "https://i.imgur.com/VKRPbae.jpg"
             },
             {
-                "id": "SOUR3",
+                "id": "SOUR003",
                 "style": "Sour",
                 "variant": "Sour",
                 "beerName": "Trifolium",
@@ -1043,7 +1034,7 @@
                 "label": "https://i.imgur.com/SBchTmG.jpg?1"
             },
             {
-                "id": "SOUR4",
+                "id": "SOUR004",
                 "style": "Sour",
                 "variant": "Sour",
                 "beerName": "Jelly King (Raspberry Peach)",
@@ -1052,7 +1043,7 @@
                 "label": "https://i.imgur.com/NeHB0V4.png?1"
             },
             {
-                "id": "SOUR5",
+                "id": "SOUR005",
                 "style": "Sour",
                 "variant": "Sour",
                 "beerName": "Jelly King (Plum)",
@@ -1063,7 +1054,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "GOSOUR",
         "style": "Gose",
         "description": "Contemporary Goses are straw to medium amber, or, may take on the hue of added fruits or other ingredients if present. Appearance is cloudy/hazy with yeast character, and may have evidence of continued fermentation activity. A wide variety of herbal, spice, floral or fruity aromas other than found in traditional Leipzig-Style Gose are present, in harmony with other aromas. Horsey, leathery or earthy aromas contributed by Brettanomyces yeasts may be evident but have a very low profile, as this beer is not excessively aged. Hop aroma is not perceived. Malt sweetness is not perceived to very low. They typically contain malted barley and unmalted wheat, with some traditional varieties containing oats. Hop flavor is not perceived. Hop bitterness is not perceived. A wide variety of herbal, spice, floral or fruity flavors other than found in traditional Leipzig-Style Gose, are present in harmony with the overall flavor profile. Salt (table salt) character is traditional in low amounts, but may vary from absent to present in Contemporary Gose. Horsey, leathery or earthy flavors contributed by Brettanomyces yeasts may be evident but have a very low profile, as this beer is not excessively aged. Contemporary Gose may be fermented with pure beer yeast strains, or with yeast mixed with bacteria. Contemporary Gose may be spontaneously fermented, similarly to Belgian-style gueuze/lambic beers, and should exhibit complexity of acidic, flavor and aroma contributed by introduction of wild yeast and bacteria into the fermentation. Low to medium lactic acid character is evident in all examples as sharp, refreshing sourness. A primary difference between Belgian Gueuze and Gose is that Gose is served at a much younger age. Gose is typically enjoyed fresh and carbonated. Overall complexity of flavors and aromas sought while maintaining a balance between acidity, yeast-enhanced spice and refreshment is ideal. Body is low to medium-low.",
         "ibuMin": 5,
@@ -1078,7 +1069,7 @@
         "foodSweet": "Greek Yogurt",
         "topRank": [
             {
-                "id": "GOSOUR1",
+                "id": "GOSOUR001",
                 "style": "Sour",
                 "variant": "Gose",
                 "beerName": "6ix Days In Dade",
@@ -1087,7 +1078,7 @@
                 "label": "https://i.imgur.com/GlRrJ3Y.png?1"
             },
             {
-                "id": "GOSOUR2",
+                "id": "GOSOUR002",
                 "style": "Sour",
                 "variant": "Gose",
                 "beerName": "What Dreams May Come",
@@ -1096,7 +1087,7 @@
                 "label": "https://i.imgur.com/hELaQ6i.jpg"
             },
             {
-                "id": "GOSOUR3",
+                "id": "GOSOUR003",
                 "style": "Sour",
                 "variant": "Gose",
                 "beerName": "Caribou Sure No.2",
@@ -1105,7 +1096,7 @@
                 "label": "https://i.imgur.com/5POdC4g.jpg"
             },
             {
-                "id": "GOSOUR4",
+                "id": "GOSOUR004",
                 "style": "Sour",
                 "variant": "Gose",
                 "beerName": "Mata-Hari",
@@ -1114,7 +1105,7 @@
                 "label": "https://i.imgur.com/M0iMw9l.jpg?1"
             },
             {
-                "id": "GOSOUR5",
+                "id": "GOSOUR005",
                 "style": "Sour",
                 "variant": "Gose",
                 "beerName": "Sour Wheat Gose",

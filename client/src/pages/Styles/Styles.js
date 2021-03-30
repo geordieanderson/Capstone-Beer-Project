@@ -2,12 +2,13 @@ import  { Component } from 'react';
 import axios from 'axios';
 import StyleGuide from '../../components/StyleGuide/StyleGuide';
 import './Styles.scss'
-import Header from '../../components/Header/Header'
+import Header from '../../components/Header/Header';
+import StyleNavBar from '../../components/StyleNavBar/StyleNavBar';
 
 class Styles extends Component {
     state = {
         beers: [],
-        featureBeer: ""
+        featureBeer: "",
     }
 
 getBeerDetails = (beerId) =>{
@@ -48,9 +49,7 @@ render() {
         <>
         <Header/>
         <main>
-        <div className="stylePage__navbar">
-                <h2 className="stylePage__title">PICK STYLE FROM NAV BAR HERE</h2>
-            </div>
+        <StyleNavBar/>
         <section>  
             {this.state.beers.length !== 0  
             ? <StyleGuide beer={this.state.beers}/>
