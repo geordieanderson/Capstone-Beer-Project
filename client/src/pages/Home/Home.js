@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.scss'
-import Logo from '../../assets/images/hops_logo.png'
 import { Link } from 'react-router-dom'
 import { Carousel } from 'react-bootstrap';
+import Header from '../../components/Header/Header';
 import ABOUT from '../../assets/images/about_cover.jpg';
 import STYLES from '../../assets/images/styles_cover.jpg'
 import FIND from '../../assets/images/find_cover.jpg'
@@ -10,14 +10,11 @@ import FIND from '../../assets/images/find_cover.jpg'
 
 const Home = () => {
     return (
-      
-    <div className="App">
-      <header className="App-header">
-        <h1>CRAFT BEER SITE</h1>
-        <h3>Project Startski!</h3>
-        <img className="logo" src={Logo} alt="logo"></img>
-        <Link to="/beers"><button>GO TO STYLES</button></Link>
-
+    <>
+    <Header/>
+    <div className="Home">
+      <header className="Home-header">
+ 
         <Carousel>
           <Carousel.Item>
           <Link to="/about"><img className="home__cover" src={ABOUT} alt="about-site"/></Link>
@@ -44,6 +41,7 @@ const Home = () => {
       </header>
   
         </div>
+        </>
     );
 };
 

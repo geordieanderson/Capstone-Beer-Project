@@ -1,7 +1,6 @@
 import React from 'react';
 import './StyleGuide.scss';
 //import { Link } from 'react-router-dom';
-import IPA from '../../assets/images/IPA.png';
 import IBU from '../../assets/images/IBU_logo.png';
 import ABV from '../../assets/images/abv_logo.svg';
 import TEMP from '../../assets/images/temp_logo.png';
@@ -19,7 +18,7 @@ const StyleGuide = ({beer}) =>{
         </div>
         
         <div className="style__container">
-            <img className="style__feature" src={IPA} alt='IPA'/>
+            <img className="style__feature" src={beer.styleImg} alt='style-image'/>
                 <div className="style__info--title">DESCRIPTION   
                     <h1 className="style__description">{beer.description}</h1>
                 </div>

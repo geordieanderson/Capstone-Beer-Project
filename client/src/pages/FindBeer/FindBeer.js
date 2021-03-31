@@ -10,10 +10,10 @@ const FindBeer = () => {
       
     <div className="Find">
       <header className="Find-header">
-        <h1>FIND BEER PAGE</h1>
-        
+        <h1>COMING SOON</h1> 
         <img className="logo" src={Logo} alt="logo"></img>
-        <Link to="/"><button>GO HOME</button></Link>
+        <h1>PLEASE COME BACK LATER</h1>
+        <Link to="/"><button>BACK TO HOME</button></Link>
 
       </header>
   

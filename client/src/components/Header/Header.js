@@ -11,9 +11,9 @@ const Header = () => {
             <h1 className="header__siteName">GUIDE TO CANADIAN CRAFT BEERS</h1>
         </div>
             <div className="header__nav">
-                <NavLink to="/" style={{ textDecoration: 'none' }}><h5 className="nav">HOME</h5></NavLink>
-                <NavLink to="/" style={{ textDecoration: 'none' }}><h5 className="nav">INFO</h5></NavLink>
-                <NavLink to="/" style={{ textDecoration: 'none' }}><h5 className="nav">FIND BEER</h5></NavLink>
+                <NavLink to="/about" style={{ textDecoration: 'none' }}><h5 className="nav">ABOUT</h5></NavLink>
+                <NavLink to="/beers" style={{ textDecoration: 'none' }}><h5 className="nav">STYLES</h5></NavLink>
+                <NavLink to="/find" style={{ textDecoration: 'none' }}><h5 className="nav">FIND BEER</h5></NavLink>
             </div>     
         </div>
     );
