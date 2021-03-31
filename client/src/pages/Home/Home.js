@@ -3,6 +3,7 @@ import './Home.scss'
 import { Link } from 'react-router-dom'
 import { Carousel } from 'react-bootstrap';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 import ABOUT from '../../assets/images/about_cover.jpg';
 import STYLES from '../../assets/images/styles_cover.jpg'
 import FIND from '../../assets/images/find_cover.jpg'
@@ -39,7 +40,7 @@ const Home = () => {
         </Carousel>
 
       </header>
-  
+      <Footer/>
         </div>
         </>
     );
