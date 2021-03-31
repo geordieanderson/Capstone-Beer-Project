@@ -3,7 +3,7 @@ import axios from 'axios';
 import StyleGuide from '../../components/StyleGuide/StyleGuide';
 import './Styles.scss'
 import Header from '../../components/Header/Header';
-import StyleNavBar2 from '../../components/StyleNavBar/StyleNavBar2';
+import StyleNavBar from '../../components/StyleNavBar/StyleNavBar';
 import StyleTopRank from '../../components/StyleTopRank/StyleTopRank';
 
 class Styles extends Component {
@@ -57,7 +57,7 @@ render() {
 
     <section>  
             {this.state.beers.length !== 0  
-            ? <StyleNavBar2 beers={this.state.beers}/>
+            ? <StyleNavBar beers={this.state.beers}/>
             : <p>LOADING...</p>}
         </section>
 

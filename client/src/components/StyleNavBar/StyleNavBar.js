@@ -1,36 +1,25 @@
-import { Component } from 'react';
+import React from 'react';
 import './StyleNavBar.scss';
-import axios from 'axios';
-import { Link } from 'react-router-dom';
+
+import { NavLink } from 'react-router-dom';
 
 
-class StyleNavBar extends Component {
-    state = {
-        beers: [],
-    }
-    
-    
-    componentDidMount(){
-        axios.get('http://localhost:8080/beers').then((response)=>{
-            this.setState({
-                beers: response.data,
-            });
-        });
-    }
-    
-    
-    render(){
+const StyleNavBar =({beers}) => {
+
+    console.log('props', beers)
         return(
             <div className="stylePage__navbar">
-                {this.state.beers.map((beer)=>(
-                    <Link to={`/beers/${beer.id}`} key={beer.id} style={{ textDecoration: 'none' }} >
+                {beers.map((beer)=>(
+                   
+                    <NavLink to={`/beers/${beer.id}`} key={beer.id} style={{ textDecoration: 'none' }}>
                         <h2 className="stylePage__title">{beer.style}</h2>
-                    </Link>
-                ))}       
+                    </NavLink>
+
+                ))}     
             </div>
         );
-    }
-    }
+    
+}
     
     
 

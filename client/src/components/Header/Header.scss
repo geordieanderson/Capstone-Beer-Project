@@ -1,10 +1,14 @@
+@use '../../partials/variables';
+@use '../../partials/mixins' as *;
+
+
 .header{
-    background-color: yellow;
+    background-color: $primary-background;
     height: 100px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 1rem 0.5rem;
+    padding: 1rem;
 }
 
 .header__left{
@@ -16,7 +20,8 @@
 
 
 .header__siteName{
-    font-size: 30px;
+    font-size: $font-mobile-header;
+    color: $white;
 }
 
 
@@ -34,6 +39,6 @@
 
 .nav{
     padding: 0.25rem 0rem;
-    color: black;
+    color: $white;
     font-size: 8px;
 }

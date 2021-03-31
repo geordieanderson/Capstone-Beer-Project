@@ -24,33 +24,30 @@
     height: 20px;
 }
 
+.cardContainer{
+    display: flex;
+    background-color: $tertiary-background;
+}
+
 .style__card{
     display: flex;
-    border: 1px solid blue;
-    background-color: lightgrey;
+    flex-direction: column;
+    width: 20vw;
+    border: 0.5px solid $black;
     align-items: center;
     padding: 0.50rem 0rem;
 }
 
-.style__ranked{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 300px;
-    border: 1px solid green;
-}
-
 .card__detailTop{
     display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 40%;
+    height: 20%;
 }
 
 .style__name{
     display: flex;
-    color: #c8842c;
+    color: $black;
     flex-wrap: wrap;
     font-size: 10px;
 }
@@ -65,7 +62,7 @@
 
 .style__brewer{
     display: flex;
-    color: black;
+    color: $black;
     flex-wrap: wrap;
     font-size: 8px;
 }
@@ -75,7 +72,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 30%
+    height: 50%
 }
 
 .style__label{
@@ -94,8 +91,9 @@
 
 .style__rating{
     display: flex;
-    font-size: 12px;
-    color: red;
+    font-size: 10px;
+    color: $black;
+    margin: 0.25 0rem;
     justify-content: center;
 }
 

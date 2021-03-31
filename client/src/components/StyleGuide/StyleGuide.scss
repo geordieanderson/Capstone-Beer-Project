@@ -11,7 +11,7 @@
 }
 
 .style__title{
-    color: $logo-color;
+    color: $white;
 }
 
 .style__feature{
@@ -35,7 +35,7 @@
 .style__info--title{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    
     border: 1px solid blue;
     font-size: 1rem;
     align-items: center;
