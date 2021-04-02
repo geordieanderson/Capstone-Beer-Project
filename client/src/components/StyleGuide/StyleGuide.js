@@ -13,72 +13,65 @@ const StyleGuide = ({beer}) =>{
 
     return(
     <section>
-        <div className="style__header">
-            <h2 className="style__title">{beer.style}</h2>
+        <div className="type">
+            <h2 className="type__name">{beer.style}</h2>
         </div>
         
         <div className="description">     
             <img className="descrtiption__image" src={beer.styleImg} alt='style-image'/>
             <div className="description__container">
-                <h2 className="description__title">DESCRIPTION </h2>  
-                <h5 className="descrtiption__info">{beer.description}</h5>    
+                <h2 className="description__title">DESCRIPTION</h2>  
+                <h6 className="descrtiption__info">{beer.description}</h6>    
             </div>
         </div>
 
+        <div className="specs">
+            <h2 className="specs__title">SPECS</h2>
+            <div className="specs__container">
+                <div className="ibu__container">
+                    <img className="ibu__logo" src={IBU} alt='IBU-levels'/>
+                        <div className="hops__container">
+                            <h6 className="hops__range">IBU MIN:{beer.ibuMin}</h6>
+                            <h6 className="hops__range">IBU MAX:{beer.ibuMax}</h6>
+                        </div>     
+                </div>
+ 
+                <div className="abv__container">
+                    <img className="abv__logo" src={ABV} alt='ABV-levels'/>
+                        <div className="alcohol__container">
+                            <h6 className="alcohol__range">ABV% MIN:{beer.abvMin}</h6>
+                            <h6 className="alcohol__range">ABV% MAX:{beer.abvMax}</h6>
+                        </div>
+                </div>  
+            </div>
+        </div> 
+
         <div className="serving">
-            <div className="style__info--title">SERVING GUIDELINES 
-                <div className="style__drink--type">
-                    <div className="container__glass">
-                        <img className="style__glass" src={beer.glassImg} alt='tulip'/>
-                        <h1 className="style__serving">{beer.glassware}</h1>
+            <h2 className="serving__title">SERVING GUIDELINES</h2>
+                <div className="serving__container">
+                    <div className="glass__container">
+                        <img className="glass__logo" src={beer.glassImg} alt='tulip'/>
+                        <h6 className="glass__type">{beer.glassware}</h6>
                     </div>
 
-                    <div className="container__temp">
-                        <img className="style__temp" src={TEMP} alt='Temp-levels'/>
-                        <h1 className="style__serving">Serving Temp:{beer.servingTemp}</h1>
+                    <div className="temp__container">
+                        <img className="temp__logo" src={TEMP} alt='Temp-levels'/>
+                        <h6 className="temp__temp">Serving Temp:{beer.servingTemp}</h6>
                     </div>
-                </div>
-
-            <div className="xxx">
-                <div className="style__drink--details">  
-                    <div className="container__ibu">
-                        <img className="style__hops" src={IBU} alt='IBU-levels'/>
-                            <div className="container__ibuLevels">
-                                <h4 className="style__serving">IBU MIN:{beer.ibuMin}</h4>
-                                <h4 className="style__serving">IBU MAX:{beer.ibuMax}</h4>
-                            </div>
-                    </div>
-                </div>
-
-                <div className="style__drink--details">       
-                    <div className="container__abv">
-                        <img className="style__alcohol" src={ABV} alt='ABV-levels'/>
-                            <div className="container__abvLevels">
-                                <h4 className="style__serving">ABV% MIN:{beer.abvMin}</h4>
-                                <h4 className="style__serving">ABV% MAX:{beer.abvMax}</h4>
-                            </div>
-                    </div>
-                </div> 
-                </div>    
-            </div>
-            </div>
-            
-            <div className="food">
-                <div className="style__info--title">SUGGESTED FOOD PAIRINGS
-                    <div className="foodContainer">
-                        <img className="style__savoury" src={Savoury} alt='savoury'/>
-                        <h1 className="style__food">{beer.foodSavoury}</h1>
-                        <img className="style__dessert" src={Dessert} alt='dessert'/>
-                        <h1 className="style__food">{beer.foodSweet}</h1>
-                        <img className="style__cheese" src={Cheese} alt='cheese'/>
-                        <h1 className="style__food">{beer.foodCheese}</h1>
-                    </div>
-                </div>
-            </div> 
-        
-
+                </div>  
+        </div>
        
-        
+        <div className="food">
+            <h2 className="food__title">SUGGESTED FOOD PAIRINGS</h2>
+                <div className="food__container">
+                    <img className="food__savoury" src={Savoury} alt='savoury'/>
+                    <h6 className="food__item">{beer.foodSavoury}</h6>
+                    <img className="food__dessert" src={Dessert} alt='dessert'/>
+                    <h6 className="food__item">{beer.foodSweet}</h6>
+                    <img className="food__cheese" src={Cheese} alt='cheese'/>
+                    <h6 className="food__item">{beer.foodCheese}</h6>
+                </div>
+        </div>         
     </section>
     )
 }

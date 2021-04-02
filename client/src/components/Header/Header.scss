@@ -15,19 +15,20 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 80vw;
+    width: 90vw;
 }
 
 
 .header__siteName{
-    font-size: $font-mobile-subheader;
+    font-size: $font-mobile-header;
     color: $white;
-    width: 100px;
+    text-align: center;
+    
 }
 
 
 .header__logo{
-    height: 30px;
+    height: 20px;
     margin-right: 1rem;
 }
 
@@ -41,5 +42,5 @@
 .nav{
     padding: 0.25rem 0rem;
     color: $white;
-    font-size: 8px;
+    font-size: $font-mobile-label;
 }

@@ -2,32 +2,21 @@
 @use '../../partials/mixins' as *;
 
 
-.style__header{
+// TYPE SECTION STYLING
+
+.type{
     background-color: $primary-background;
-    height: 50px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.25rem;
-}
+    height: 75px;
+    padding: 1rem;
 
-.style__title{
-    color: $white;
-}
-
-
-
-
-
-.style__info--title{
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    align-items: center;
-    
-    @include tablet{
-        width: 25vw;
+    &__name{
+        font-size: $font-mobile-header;
+        color: $white;
+        text-align: center;
+        justify-content: center;
     }
 }
+
 
 // DESCRIPTION SECTION STYLING
 
@@ -60,6 +49,7 @@
         font-size: $font-mobile-subheader;
         justify-content: center;
         align-items: center;
+        padding-bottom: 8px;
     }
 
     &__info{
@@ -70,127 +60,173 @@
 }
 
 
-.style__serving{
+
+// SPECS GUIDELINES SECTION STYLING
+
+.specs{
     display: flex;
-    font-size: 0.5rem;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: salmon;
+    padding: 1rem;
+    height: 110px;
+
+    &__title{
+        display: flex;
+        font-size: $font-mobile-subheader;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8px;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
+.ibu__container{
+    display: flex;
+    align-items: center;
+}
+
+.ibu__logo{
+    height: 40px;
+    margin-right: 5px; 
+}
+
+.hops__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hops__range{
+    display: flex;
+    font-size: $font-mobile-paragraph;
+}
+    
+.abv__container{
+    display: flex;
+    align-items: center;
+}
+
+.abv__logo{
+    height: 40px;
+    margin-right: 5px;
+}
+
+
+.alcohol__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alcohol__range{
+    display: flex;
+    font-size: $font-mobile-paragraph;
+}
 
 
 
 
 // SERVING GUIDELINES SECTION STYLING
 
-.xxx{
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-}
 
 .serving{
     background-color: lightskyblue;
     padding: 1rem;
+    height: 110px;
+
+    &__title{
+        display: flex;
+        font-size: $font-mobile-subheader;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8px;
+    }
 }
 
-.style__glass{
-    height: 30px;
-    margin-right: 5px;
-}
 
-.style__hops{
-    height: 30px;
-    margin-right: 5px;
-}
-
-.style__alcohol{
-    height: 30px;
-    margin-right: 5px;
-}
-
-.style__temp{
-    height: 30px;
-    margin-right: 5px;
-}
-
-.style__drink--type{
+.serving__container{
     display: flex;
     justify-content: space-around;
-    width: 90%;
 }
 
-.style__drink--details{
-    display: flex;
-}
-
-.container__glass{
+.glass__container{
     display: flex;
     align-items: center;
 }
 
-.container__temp{
+.glass__logo{
+    height: 40px;
+    margin-right: 5px;
+}
+
+.glass__type{
+    display: flex;
+    font-size: $font-mobile-paragraph;
+}
+
+.temp__container{
     display: flex;
     align-items: center;
 }
 
-.container__ibu{
-    display: flex;
-    align-items: center;
+.temp__logo{
+    height: 40px;
+    margin-right: 5px;
 }
 
-.container__ibuLevels{
+.temp__temp{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: $font-mobile-paragraph;
 }
 
-.container__abv{
-    display: flex;
-    align-items: center;
-}
 
-.container__abvLevels{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 // FOOD PAIRING SECTION STYLING
 
 .food{
     background-color: limegreen;
     padding: 1rem;
-}
+    height: 110px;
 
-.foodContainer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
- 
-   
-    @include tablet{
-        flex-direction: column;
+    &__title{
+        display: flex;
+        font-size: $font-mobile-subheader;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8px;
     }
+
+    &__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__item{
+        display: flex;
+        font-size: 0.5rem;
+        width: 50px;
+        }
 }
 
-.style__food{
-    display: flex;
-    font-size: 0.5rem;
-}
 
-
-
-.style__savoury{
+.food__savoury{
     height: 30px;
     margin-right: 5px;
 }
 
-.style__dessert{
+.food__dessert{
     height: 30px;
     margin-right: 5px;
 }
 
-.style__cheese{
+.food__cheese{
     height: 30px;
     margin-right: 5px;
 }
