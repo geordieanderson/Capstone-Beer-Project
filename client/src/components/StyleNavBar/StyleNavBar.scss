@@ -4,18 +4,39 @@
 
 .stylePage__navbar{
     display: flex;
+    flex-direction: column;
     background-color: $tertiary-background;
     height: 50px;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
     padding: 0.25rem;
 }
+
+.stylePage__navbarTop{
+    display: flex;
+    width: 100%;
+    
+}
+
+.stylePage__navbarMiddle{
+    display: flex;
+    width: 100%;
+   
+}
+
+
+.stylePage__navbarBottom{
+    display: flex;
+    width: 100%;
+  
+}
+
 
 .stylePage__title{
     display: flex;
     color: $black;
     font-size: 0.25rem;
+    width: 53px;
+    align-items: center;
 
     @include tablet{
         font-size: 0.5rem;

@@ -14,29 +14,13 @@
     color: $white;
 }
 
-.style__feature{
-    display: none;
-    
-    @include tablet{
-        display: flex;
-        width: 25vw; 
-    }
-}
 
-.style__container{
-    display: flex;
-    flex-direction: column;
 
-    @include tablet{
-        flex-direction: row;
-    }
-}
+
 
 .style__info--title{
     display: flex;
     flex-direction: column;
-    
-    border: 1px solid blue;
     font-size: 1rem;
     align-items: center;
     
@@ -45,76 +29,97 @@
     }
 }
 
-.style__description{
-    display: flex;
-    font-size: 0.5rem;
-    padding: 1rem;
+// DESCRIPTION SECTION STYLING
 
+.description{
+    display: flex;
+    flex-direction: column;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    
+        @include tablet{
+            flex-direction: row;
+        }
+    }
+
+    &__image{
+        display: flex;
+        width: 100%;
+        
+        @include tablet{
+            display: flex;
+            width: 25vw; 
+        }
+    }
+
+    &__title{
+        display: flex;
+        font-size: $font-mobile-subheader;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__info{
+        display: flex;
+        font-size: $font-mobile-paragraph;
+        
+    }
 }
+
 
 .style__serving{
     display: flex;
     font-size: 0.5rem;
 }
 
-.style__food{
-    display: flex;
-    font-size: 0.5rem;
-}
 
-.foodContainer{
+
+
+
+// SERVING GUIDELINES SECTION STYLING
+
+.xxx{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: 100%;
+    width: 90%;
+}
+
+.serving{
+    background-color: lightskyblue;
     padding: 1rem;
-    
-
-    @include tablet{
-        flex-direction: column;
-    }
-}
-
-.style__savoury{
-    height: 30px;
-    margin-right: 5px;
-}
-
-.style__dessert{
-    height: 30px;
-    margin-right: 5px;
-}
-
-.style__cheese{
-    height: 30px;
-    margin-right: 5px;
 }
 
 .style__glass{
     height: 30px;
+    margin-right: 5px;
 }
 
 .style__hops{
     height: 30px;
+    margin-right: 5px;
 }
 
 .style__alcohol{
     height: 30px;
+    margin-right: 5px;
 }
 
 .style__temp{
     height: 30px;
+    margin-right: 5px;
 }
 
 .style__drink--type{
     display: flex;
     justify-content: space-around;
-    border: 1px solid black
+    width: 90%;
 }
 
 .style__drink--details{
     display: flex;
-    border: 1px solid black
 }
 
 .container__glass{
@@ -149,13 +154,46 @@
     align-items: center;
 }
 
+// FOOD PAIRING SECTION STYLING
+
+.food{
+    background-color: limegreen;
+    padding: 1rem;
+}
+
+.foodContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+ 
+   
+    @include tablet{
+        flex-direction: column;
+    }
+}
+
+.style__food{
+    display: flex;
+    font-size: 0.5rem;
+}
 
 
 
+.style__savoury{
+    height: 30px;
+    margin-right: 5px;
+}
 
+.style__dessert{
+    height: 30px;
+    margin-right: 5px;
+}
 
-
-
+.style__cheese{
+    height: 30px;
+    margin-right: 5px;
+}
 
 
 
