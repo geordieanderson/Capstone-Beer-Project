@@ -8,18 +8,30 @@
     background-color: $tertiary-background;
     height: 50px;
     width: 100%;
-    padding: 0.25rem;
+    padding: 0.25rem 0.5rem;
+
+    @include tablet{
+        height: 75px;
+        padding: 0.5rem 1rem;
+    }
 }
 
 .stylePage__navbarTop{
     display: flex;
     width: 100%;
     
+    @include tablet{
+        justify-content: space-around;
+    }
 }
 
 .stylePage__navbarMiddle{
     display: flex;
     width: 100%;
+
+    @include tablet{
+        justify-content: space-around;
+    }
    
 }
 
@@ -27,6 +39,10 @@
 .stylePage__navbarBottom{
     display: flex;
     width: 100%;
+
+    @include tablet{
+        justify-content: space-around;
+    }
   
 }
 
@@ -34,12 +50,13 @@
 .stylePage__title{
     display: flex;
     color: $black;
-    font-size: 0.25rem;
+    font-size: $font-mobile-label;
     width: 52px;
     align-items: center;
 
     @include tablet{
-        font-size: 0.5rem;
+        font-size: $font-label;
+        width: 115px;
     }
 }
 

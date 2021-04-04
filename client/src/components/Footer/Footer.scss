@@ -4,6 +4,7 @@
 .footer{
     background-color: $secondary-background;
     height: 50px;
+    font-size: $font-mobile-label;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +15,13 @@
     color: $white;
 }
 
+.footer__logoContainer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
 .footer__logo{
-    height: 20px;
+    height: 10px;
     margin-right: 1rem;
 }

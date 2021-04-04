@@ -24,6 +24,9 @@
     color: $white;
     text-align: center;
     
+    @include tablet{
+        font-size: $font-header;
+    }
 }
 
 
@@ -37,10 +40,21 @@
     flex-direction: column;
     width: 20vw;
     text-align: right;
+
+    @include tablet{
+        flex-direction: row;
+        align-items: center;
+    }
 }
 
 .nav{
     padding: 0.25rem 0rem;
     color: $white;
     font-size: $font-mobile-label;
+
+
+    @include tablet{
+        font-size: $font-label;
+        padding: 0.5rem 0.25rem;
+    }
 }

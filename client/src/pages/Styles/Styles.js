@@ -5,6 +5,7 @@ import './Styles.scss'
 import Header from '../../components/Header/Header';
 import StyleNavBar from '../../components/StyleNavBar/StyleNavBar';
 import StyleTopRank from '../../components/StyleTopRank/StyleTopRank';
+import Footer from '../../components/Footer/Footer';
 
 class Styles extends Component {
     state = {
@@ -74,6 +75,7 @@ render() {
         </section>
 
     </main>
+    <Footer />
     </>
     )
     }
