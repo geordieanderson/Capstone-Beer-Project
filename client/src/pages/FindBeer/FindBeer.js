@@ -1,23 +1,24 @@
 import React from 'react';
 import './FindBeer.scss'
-import Logo from '../../assets/images/hops_logo.png'
-import { Link } from 'react-router-dom'
 
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import Hero from '../../assets/images/find_hero.jpg'
 
 
 const FindBeer = () => {
-    return (
-      
-    <div className="Find">
-      <header className="Find-header">
-        <h1>COMING SOON</h1> 
-        <img className="logo" src={Logo} alt="logo"></img>
-        <h1>PLEASE COME BACK LATER</h1>
-        <Link to="/"><button>BACK TO HOME</button></Link>
-
-      </header>
-  
-        </div>
+  return (
+    <>
+    <Header/>
+    <div className="find">
+      <div className="find__container">
+        <h2 className="find__title">OUT HAVING A BEER</h2>
+        <h2 className="find__title">PLEASE COME BACK LATER</h2>
+      </div>
+      <img className="find__hero" src={Hero} alt="empty-glass"/>
+    </div>
+    <Footer/>
+    </>
     );
 };
 

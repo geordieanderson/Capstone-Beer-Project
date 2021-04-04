@@ -1,18 +1,39 @@
+@use '../../partials/variables';
+@use '../../partials/mixins' as *;
 
 
-.Find-header {
+.find {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
+  &__container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 10%;
 
+    @include tablet{
+      top: 60%;
+      left: 30%;
+    }
+  }
 
-.logo{
-  height: 150px;
+  &__title{
+    display: flex;
+    color: $white;
+    justify-content: center;
+    font-style: italic;
+    font-size: $font-mobile-header;
+    
+    @include tablet{
+      font-size: $font-superheader;
+    }
+  }
+
+  &__hero{
+    display: flex;
+    position: relative;
+    width: 100%;
+    opacity: 30%;
+  }
 }
