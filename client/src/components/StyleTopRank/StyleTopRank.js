@@ -2,7 +2,9 @@ import React from 'react';
 import './StyleTopRank.scss';
 import Untappd from '../../assets/images/Icon-untappd.svg';
 
+
 const StyleTopRank = ({beer}) =>{
+
 
 return (
     <section>      
@@ -15,7 +17,7 @@ return (
         console.log(rank);
 
         return(
-        <div key={rank.id}> {/* originally line 22 between card/ranked*/}
+        <div key={rank.id}> 
             
         <div className="rank__container">         
             <div className="rank__card">   
@@ -36,6 +38,7 @@ return (
                     <div className="button__container">
                         <button className="button__submit" type="submit">SUBMIT</button>
                         <button className="button__like" type="submit">LIKE</button>
+                        
                     </div>
                 </div>
             </div>

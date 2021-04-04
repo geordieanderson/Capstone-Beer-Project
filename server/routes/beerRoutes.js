@@ -1,10 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
-// const { v4: uuidv4 } = require('uuid'); //IMPLEMENT WITH POST
 
 function readBeers () {
-    const beerData = fs.readFileSync('./data/master.json');
+    const beerData = fs.readFileSync('./data/beers.json');
     const parsedData = JSON.parse(beerData);
     return parsedData;
 }

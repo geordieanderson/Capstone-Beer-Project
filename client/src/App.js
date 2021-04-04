@@ -6,6 +6,7 @@ import About from '../src/pages/About/About';
 import FindBeer from '../src/pages/FindBeer/FindBeer';
 import Test from '../src/pages/Test';
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -15,7 +16,7 @@ function App() {
       <Route path="/beers/:beerId" component={Styles}/>
       <Route path="/beers" exact component={Styles}/>
       <Route path="/about" component={About}/>
-      <Route path="/find" component={FindBeer}/>
+      <Route path="/find" component={FindBeer}/>   
     </Switch>
     </BrowserRouter>
   );
