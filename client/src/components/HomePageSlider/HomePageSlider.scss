@@ -4,7 +4,6 @@
 
 .slider{
     position: relative;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,33 +11,37 @@
     &__image{
         width: 100vw;
         border-radius: 10px;
-
-        @include tablet{
-            height: 400px;
-        }
     }
 }
 
 .right-arrow{
     position: absolute;
     top: 50%;
-    right: 2rem;
-    font-size: 3rem;
-    color: black;
+    right: 1rem;
+    font-size: 2rem;
+    color: $accent;
     z-index: 10;
     cursor: pointer;
     user-select: none;
+
+    @include tablet{
+        font-size: 2.5rem;
+    }
 }
 
 .left-arrow{
     position: absolute;
     top: 50%;
-    left: 2rem;
-    font-size: 3rem;
-    color: black;
+    left: 1rem;
+    font-size: 2rem;
+    color: $accent;
     z-index: 10;
     cursor: pointer;
     user-select: none;
+
+    @include tablet{
+        font-size: 2.5rem;
+    }
 }
 
 .slide {

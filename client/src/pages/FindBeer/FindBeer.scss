@@ -6,16 +6,20 @@
   background-color: #282c34;
 
   &__container{
-    display: flex;
-    flex-direction: column;
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 40vh;
+    left: 5vw;
 
     @include tablet{
-      top: 60%;
-      left: 30%;
+      top: 60vh;
+      left: 15vw;
     }
+
+    @include desktop{
+      top: 60vh;
+      left: 40vw;
+    }
+
   }
 
   &__title{

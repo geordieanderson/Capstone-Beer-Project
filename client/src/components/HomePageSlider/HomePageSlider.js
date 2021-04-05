@@ -29,7 +29,7 @@ if(!Array.isArray(slides) || slides.length <= 0){
                return(
                    <div className={index === current ? 'slide active' : 'slide'} key={index}>
                        {index === current && (
-                        <Link to = '/beers'><img src={slide.image} alt="home-page-covers" className="slider__image"/></Link>
+                        <Link to ={slide.path}><img src={slide.image} alt="home-page-covers" className="slider__image"/></Link>
                        )}
                     
                    </div>
