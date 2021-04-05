@@ -1,6 +1,8 @@
+
 import React, { Component } from 'react';
 import './Favourites.scss'
 import axios from 'axios';
+//import { Link } from 'react-router-dom';
 
 class Favourites extends Component {
     state = {
@@ -36,18 +38,17 @@ class Favourites extends Component {
     }
     
 
-    render() {
-       
+    render() {   
         return (
             <section>
-                <h1>MY FAVOURITES</h1>
                 <form onSubmit={this.handleSubmit}>
                 <div>
                     <textarea className="card__notes" type="text" placeholder="Add tasting notes" onChange={this.handleChange}
                     value={this.state.value}></textarea>
                     <div className="button__container">
                         <button className="button__submit" type="submit" onClick={this.handleClick}> SUBMIT</button>
-                        <button className="button__like" type="submit">LIKE</button>
+                        <button className="buttons__like" type="submit" onClick={this.handleClick}>🍻</button> 
+                        <button className="buttons__find" type="submit">FIND</button>
                     </div>
                 </div>
                 </form> 
@@ -57,3 +58,4 @@ class Favourites extends Component {
 }
 
 export default Favourites
+

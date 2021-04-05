@@ -1,21 +1,19 @@
 import React from 'react';
-import './StyleTopRank.scss';
-import Untappd from '../../assets/images/Icon-untappd.svg';
+import './StyleTrending.scss';
 //import Favourites from '../../components/Favourites/Favourites'
 import { Link } from 'react-router-dom';
 
 
-const StyleTopRank = ({beer}) =>{
+const StyleTrending = ({beer}) =>{
 
 
 return (
     <section>      
         <div className="header__container">
-            <h1 className="header__title">TOP RANKED BEERS</h1>
-            <img className="header__image" src={Untappd} alt='Untappd'/>
+            <h1 className="header__title">TRENDING NEAR ME</h1>
         </div>
 
-        {beer.topRank.map((rank) =>{
+        {beer.trending.map((rank) =>{
         console.log(rank);
 
         return(
@@ -31,7 +29,6 @@ return (
                     <div className="card__right">     
                         <h4 className="beer__name">{rank.beerName}</h4>
                         <h4 className="beer__brewer">{rank.brewery}</h4>
-                        <h4 className="beer__rating">{rank.rating}</h4> 
                     </div>
 
                 </div> 
@@ -58,4 +55,4 @@ return (
     );   
 };
 
-export default StyleTopRank;
+export default StyleTrending;

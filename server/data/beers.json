@@ -61,6 +61,16 @@
                 "rating": 4.27,
                 "label": "https://i.imgur.com/mBFEgCj.jpg"
             }
+        ],
+        "trending": [
+            {
+                "id": "AIPA1001",
+                "style": "IPA",
+                "variant": "American",
+                "beerName": "Liam",
+                "brewery": "Badlands Brewing",
+                "label": "https://i.imgur.com/ysLIAhs.jpg"
+            }
         ]
     },
     {
@@ -124,6 +134,16 @@
                 "brewery": "District Brewing Company",
                 "rating": 3.69,
                 "label": "https://i.imgur.com/ck1octe.jpg"
+            }
+        ],
+        "trending": [
+            {
+                "id": "EIPA1001",
+                "style": "IPA",
+                "variant": "English",
+                "beerName": "Inspiration Point Brew 002",
+                "brewery": "Henderson Brewing Co",
+                "label": "https://i.imgur.com/Qez1gtL.jpg?1"
             }
         ]
     },
@@ -189,6 +209,16 @@
                 "rating": 4.13,
                 "label": "https://i.imgur.com/arCN9fd.jpg"
             }
+        ],
+        "trending": [
+            {
+                "id": "NEIPA1001",
+                "style": "IPA",
+                "variant": "New England",
+                "beerName": "Separation Anxiety",
+                "brewery": "Third Moon Brewing Company",
+                "label": "https://i.imgur.com/NPGpgQm.jpg"
+            }
         ]
     },
     {
@@ -252,6 +282,16 @@
                 "brewery": "Boréale",
                 "rating": 4.00,
                 "label": "https://i.imgur.com/rGDuzzd.png?1"
+            }
+        ],
+        "trending": [
+            {
+                "id": "APA1001",
+                "style": "Pale Ale",
+                "variant": "American",
+                "beerName": "Connecting Flights Pale Ale",
+                "brewery": "Great Lakes Brewery",
+                "label": "https://i.imgur.com/6gZhsh5.jpg"
             }
         ]
     },
@@ -317,6 +357,16 @@
                 "rating": 3.70,
                 "label": "https://i.imgur.com/mcY186Y.png"
             }
+        ],
+        "trending": [
+            {
+                "id": "EPA1001",
+                "style": "Pale Ale",
+                "variant": "English",
+                "beerName": "Chinook Pale Ale",
+                "brewery": "Upper Thames Brewing Company",
+                "label": "https://i.imgur.com/8a0YBZ2.jpg"
+            }
         ]
     },
     {
@@ -380,6 +430,16 @@
                 "brewery": "Cabin Brewing Co.",
                 "rating": 3.96,
                 "label": "https://i.imgur.com/jyJjphc.jpg"
+            }
+        ],
+        "trending": [
+            {
+                "id": "NEPA1001",
+                "style": "Pale Ale",
+                "variant": "New England",
+                "beerName": "Keg Deals & Kick Backs w/Citra, Galaxy & Azacca",
+                "brewery": "Blood Brothers Brewing",
+                "label": "https://i.imgur.com/xYjgYPA.png"
             }
         ]
     },
@@ -445,6 +505,16 @@
                 "rating": 3.82,
                 "label": "https://i.imgur.com/7CiFfzO.jpg?1"
             }
+        ],
+        "trending": [
+            {
+                "id": "OST1001",
+                "style": "Stout",
+                "variant": "Oatmeal",
+                "beerName": "O'Neill Stout",
+                "brewery": "Left Field Brewery",
+                "label": "https://i.imgur.com/uiR5hPH.jpg?1"
+            }
         ]
     },
     {
@@ -508,6 +578,16 @@
                 "brewery": "Citizen Brewing Company",
                 "rating": 3.77,
                 "label": "https://i.imgur.com/JxyqoQl.png"
+            }
+        ],
+        "trending": [
+            {
+                "id": "DIST1001",
+                "style": "Stout",
+                "variant": "Dry Irish",
+                "beerName": "Corktown (Ides of March 2021)",
+                "brewery": "Henderson Brewing Co",
+                "label": "https://i.imgur.com/aS240Xz.jpg"
             }
         ]
     },
@@ -573,6 +653,16 @@
                 "rating": 3.85,
                 "label": "https://i.imgur.com/o8fZJit.jpg"
             }
+        ],
+        "trending": [
+            {
+                "id": "BPO1001",
+                "style": "Porter",
+                "variant": "Brown",
+                "beerName": "Meet the Porters",
+                "brewery": "Great Lakes Brewery",
+                "label": "https://i.imgur.com/t3iHChr.jpg"
+            }
         ]
     },
     {
@@ -636,6 +726,16 @@
                 "brewery": "Bellwoods Brewery",
                 "rating": 3.94,
                 "label": "https://i.imgur.com/Nbsg5XA.png"
+            }
+        ],
+        "trending": [
+            {
+                "id": "IPO1001",
+                "style": "Porter",
+                "variant": "Imperial",
+                "beerName": "Beatrix Baltic Porter",
+                "brewery": "Great Lakes Brewery",
+                "label": "https://i.imgur.com/T4HKk8N.jpg"
             }
         ]
     },
@@ -701,6 +801,16 @@
                 "rating": 3.71,
                 "label": "https://i.imgur.com/XeHt0j3.jpg?1"
             }
+        ],
+        "trending": [
+            {
+                "id": "ALAG1001",
+                "style": "Lager",
+                "variant": "American",
+                "beerName": "Open Invite w/Nelson Sauvin",
+                "brewery": "Town Brewery",
+                "label": "https://i.imgur.com/yeKaOWk.jpg"
+            }
         ]
     },
     {
@@ -764,6 +874,16 @@
                 "brewery": "Grimross Brewing Corp.",
                 "rating": 3.71,
                 "label": "https://i.imgur.com/vXkm4RU.jpg"
+            }
+        ],
+        "trending": [
+            {
+                "id": "VLAG1001",
+                "style": "Lager",
+                "variant": "Vienna",
+                "beerName": "Vienna Lager",
+                "brewery": "Ace Hill Beer",
+                "label": "https://i.imgur.com/Wo6skOw.png?1"
             }
         ]
     },
@@ -829,6 +949,16 @@
                 "rating": 3.79,
                 "label": "https://i.imgur.com/dmqE42E.png?1"
             }
+        ],
+        "trending": [
+            {
+                "id": "BPIL1001",
+                "style": "Pilsner",
+                "variant": "Bohemian",
+                "beerName": "Baby Světlé",
+                "brewery": "Godspeed Brewery",
+                "label": "https://i.imgur.com/ibaU4KM.jpg"
+            }
         ]
     },
     {
@@ -892,6 +1022,16 @@
                 "brewery": "Four Winds Brewing",
                 "rating": 3.78,
                 "label": "https://i.imgur.com/0ma8phc.jpg"
+            }
+        ],
+        "trending": [
+            {
+                "id": "GPIL1001",
+                "style": "Pilsner",
+                "variant": "German",
+                "beerName": "Pilsner",
+                "brewery": "Ace Hill Beer",
+                "label": "https://i.imgur.com/aJiZKxM.png?1"
             }
         ]
     },
@@ -957,6 +1097,16 @@
                 "rating": 3.74,
                 "label": "https://i.imgur.com/BhI9YdK.jpg"
             }
+        ],
+        "trending": [
+            {
+                "id": "HWHT1001",
+                "style": "Wheat Beer",
+                "variant": "Hefeweizen",
+                "beerName": "Pilot Get Fresh",
+                "brewery": "Flying Monkeys Craft Brewery",
+                "label": "https://i.imgur.com/usBaZ7l.png"
+            }
         ]
     },
     {
@@ -1020,6 +1170,16 @@
                 "brewery": "Brasserie Maltstrom",
                 "rating": 3.79,
                 "label": "https://i.imgur.com/CUngKKX.jpg"
+            }
+        ],
+        "trending": [
+            {
+                "id": "WITWHT1001",
+                "style": "Wheat Beer",
+                "variant": "Witbier",
+                "beerName": "Devo",
+                "brewery": "Left Field Brewery",
+                "label": "https://i.imgur.com/ZayvyF4.jpg?1"
             }
         ]
     },
@@ -1085,6 +1245,16 @@
                 "rating": 4.12,
                 "label": "https://i.imgur.com/1r5Y9RN.png?1"
             }
+        ],
+        "trending": [
+            {
+                "id": "SOUR1001",
+                "style": "Sour",
+                "variant": "Sour",
+                "beerName": "Blueberry, Chocolate, Coffee & Vanilla Sour",
+                "brewery": "Collective Arts Brewing",
+                "label": "https://i.imgur.com/c3UGUeI.jpg"
+            }
         ]
     },
     {
@@ -1148,6 +1318,16 @@
                 "brewery": "Field House Brewing Co.",
                 "rating": 3.86,
                 "label": "https://i.imgur.com/POww5yB.png"
+            }
+        ],
+        "trending": [
+            {
+                "id": "GOSOUR1001",
+                "style": "Sour",
+                "variant": "Gose",
+                "beerName": "Wizard of Gose - Tangerine",
+                "brewery": "Bandit Brewery",
+                "label": "https://i.imgur.com/6mhqpHi.jpg"
             }
         ]
     }

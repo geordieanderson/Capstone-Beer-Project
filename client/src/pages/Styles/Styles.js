@@ -4,6 +4,7 @@ import StyleGuide from '../../components/StyleGuide/StyleGuide';
 import './Styles.scss'
 import Header from '../../components/Header/Header';
 import StyleNavBar from '../../components/StyleNavBar/StyleNavBar';
+import StyleTrending from '../../components/StyleTrending/StyleTrending';
 import StyleTopRank from '../../components/StyleTopRank/StyleTopRank';
 import Footer from '../../components/Footer/Footer';
 
@@ -65,6 +66,12 @@ render() {
         <section>  
             {this.state.featureBeer.length !== 0  
             ? <StyleGuide beer={this.state.featureBeer}/>
+            : <p>LOADING...</p>}
+        </section>
+
+        <section>  
+            {this.state.featureBeer.length !== 0  
+            ? <StyleTrending beer={this.state.featureBeer}/>
             : <p>LOADING...</p>}
         </section>
         
