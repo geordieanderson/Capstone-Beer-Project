@@ -35,16 +35,16 @@ const About = () => {
     <div className="partners">
         <h2 className="partners__title">OUR PARTNERS & FRIENDS</h2>
         <div className="partners__containerTop">
-          <img className="partners__logo" src={CCBAA} alt="Canadian-Craft-Brewers-Assoc-logo"/>
-          <img className="partners__logo" src={CBN} alt="Canadian-Beer-News-logo"/>
-          <img className="partners__logo" src={Untappd} alt="Untappd-logo"/>
+          <a href="https://ccba-ambc.org/"><img className="partners__logo" src={CCBAA} alt="Canadian-Craft-Brewers-Assoc-logo"/></a>
+          <a href="https://www.canadianbeernews.com/"><img className="partners__logo" src={CBN} alt="Canadian-Beer-News-logo"/></a>
+          <a href="https://www.untappd.com/"><img className="partners__logo" src={Untappd} alt="Untappd-logo"/></a>
         </div>
         <div className="partners__containerBottom">
-          <img className="partners__logo" src={Bellwoods} alt="Bellwoods-logo"/>
-          <img className="partners__logo" src={BloodBros} alt="Blood-Brothers-logo"/>
-          <img className="partners__logo" src={CA} alt="Collective-Arts-logo"/>
-          <img className="partners__logo" src={GLB} alt="GLB-logo"/>
-          <img className="partners__logo" src={LeftField} alt="Left-Field-logo"/>
+          <a href="https://www.bellwoodsbrewery.com/"><img className="partners__logo" src={Bellwoods} alt="Bellwoods-logo"/></a>
+          <a href="https://www.bloodbrothersbrewing.com/"><img className="partners__logo" src={BloodBros} alt="Blood-Brothers-logo"/></a>
+          <a href="https://collectiveartsbrewing.com/"><img className="partners__logo" src={CA} alt="Collective-Arts-logo"/></a>
+          <a href="https://www.greatlakesbeer.com/"><img className="partners__logo" src={GLB} alt="GLB-logo"/></a>
+          <a href="https://www.leftfieldbrewery.ca/"><img className="partners__logo" src={LeftField} alt="Left-Field-logo"/></a>
           
         </div>
     </div>
