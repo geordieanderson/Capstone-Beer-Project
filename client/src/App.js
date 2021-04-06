@@ -6,6 +6,7 @@ import FindBeer from '../src/pages/FindBeer/FindBeer';
 import HomePage from '../src/pages/HomePage/HomePage';
 import Favourites from '../src/components/Favourites/Favourites';
 import MockAgeGate from './pages/MockAgeGate/MockAgeGate';
+import FavouritesMock from './pages/FavouritesMock/FavouritesMock';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/about" component={About}/>
       <Route path="/find" component={FindBeer}/>   
       <Route path="/favourites" component={Favourites}/>
+      <Route path="/mock" component={FavouritesMock}/>
     </Switch>
     </BrowserRouter>
   );

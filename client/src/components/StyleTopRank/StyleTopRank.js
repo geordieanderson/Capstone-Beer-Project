@@ -39,8 +39,8 @@ return (
                     <textarea className="card__notes" type="text" placeholder="Add tasting notes"></textarea>
                     <div className="buttons">
                         <div className="buttons__left">
-                            <Link><button className="buttons__submit" type="submit"> SUBMIT</button></Link>
-                            <Link to="/find"><button className="buttons__find" type="submit">FIND</button></Link> 
+                            <Link><button className="buttons__submit" type="submit">➕</button></Link>
+                            <Link to="/find"><button className="buttons__find" type="submit">📍</button></Link> 
                         </div>
                         <div className="buttons__right">
                             <Link to="/favourites"><button className="buttons__like" type="submit">🍻</button></Link>    
