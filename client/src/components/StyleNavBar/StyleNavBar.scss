@@ -52,11 +52,18 @@
     color: $black;
     font-size: $font-mobile-label;
     width: 52px;
+    justify-content: center;
     align-items: center;
 
     @include tablet{
         font-size: $font-label;
         width: 115px;
+    }
+
+    &:hover, &:active{
+        background-color: $secondary-background;
+        border-radius: 20px;
+        color: $white;
     }
 }
 

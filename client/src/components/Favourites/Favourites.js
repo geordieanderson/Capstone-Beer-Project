@@ -1,12 +1,12 @@
 
 import React, { Component } from 'react';
-import './Favourites.scss'
-import axios from 'axios';
-//import { Link } from 'react-router-dom';
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom';
 
 class Favourites extends Component {
     state = {
-        tastingNotes: "",     
+        favourites: "",     
     };
 
     handleChange = (e) => {
@@ -19,40 +19,27 @@ class Favourites extends Component {
         this.props.history.push('/favourites');
     };
 
-    handleSubmit = (e) => {
-        e.preventDefault();
 
-
-    axios
-    .post `http://localhost:8080/favourites`, {
-        tastingNotes: this.state.tastingNotes
-    }
-    .then (response => {
-        console.log('fave.js response', response)
-        this.setState({
-            tastingNotes: ""
-        })
-        this.props.history.push('/favourites')
-    })
-    .catch (error => console.log(error));
-    }
-    
 
     render() {   
         return (
+            <>
+            <Header />
             <section>
-                <form onSubmit={this.handleSubmit}>
+                <form>
                 <div>
                     <textarea className="card__notes" type="text" placeholder="Add tasting notes" onChange={this.handleChange}
                     value={this.state.value}></textarea>
                     <div className="button__container">
                         <button className="button__submit" type="submit" onClick={this.handleClick}> SUBMIT</button>
                         <button className="buttons__like" type="submit" onClick={this.handleClick}>🍻</button> 
-                        <button className="buttons__find" type="submit">FIND</button>
+                        <Link to={'/find'}><button className="buttons__find" type="submit">FIND</button></Link>
                     </div>
                 </div>
                 </form> 
             </section>
+            <Footer/>
+            </>
         );  
     }
 }

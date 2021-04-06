@@ -1,11 +1,9 @@
 import React from 'react';
 import './StyleTrending.scss';
-//import Favourites from '../../components/Favourites/Favourites'
 import { Link } from 'react-router-dom';
 
 
 const StyleTrending = ({beer}) =>{
-
 
 return (
     <section>      

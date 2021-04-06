@@ -12,6 +12,14 @@
   &__rightContainer{
     width: 50vw;
     padding: 0.5rem;
+
+    @include tablet{
+      padding: 1rem;
+    }
+
+    @include desktop{
+      padding: 2rem;
+    }
   }
 
   &__hero{
@@ -20,14 +28,29 @@
     height: 100%;
   }
 
-  &__title{
+  &__title1{
     display: flex;
     color: $white;
     font-size: $font-mobile-subheader;
     padding-bottom: 0.5rem;
+
+    @include tablet{
+      font-size: $font-subheader;
+    }
   }
 
-  &__info{
+  &__title2{
+    display: flex;
+    color: $white;
+    font-size: $font-mobile-subheader;
+    padding-bottom: 0.5rem;
+
+    @include tablet{
+      font-size: $font-subheader;
+    }
+  }
+
+  &__info1{
     display: flex;
     color: $white;
     font-size: $font-mobile-paragraph;
@@ -37,6 +60,27 @@
       font-size: $font-paragraph;
       padding-bottom: 1.5rem;
     }
+
+    @include desktop{
+      font-size: $font-desktop-paragraph;
+      padding-bottom: 3rem;
+    }
+  }
+
+  &__info2{
+    display: flex;
+    color: $white;
+    font-size: $font-mobile-paragraph;
+    padding-bottom: 0.5rem;
+
+    @include tablet{
+      font-size: $font-paragraph;
+      padding-bottom: 1.5rem;
+    }
+
+    @include desktop{
+      font-size: $font-desktop-paragraph;
+    }
   }
 
 }
@@ -45,6 +89,10 @@
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
+
+  @include tablet{
+    padding: 1rem;
+  }
 
 
   &__title{
@@ -59,7 +107,15 @@
   }
 
   &__logo{
-    height: 20px
+    height: 20px;
+
+    @include tablet{
+      height: 30px;
+    }
+
+    @include desktop{
+      height: 40px;
+    }
   }
 
   &__containerBottom{

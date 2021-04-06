@@ -24,10 +24,10 @@ const About = () => {
       </div>
       
       <div className="about__rightContainer">
-        <h2 className="about__title">ABOUT CRAFT BEER</h2>
-        <p className="about__info">Furthermore, an Imperial Stout near a Wolverine Beer panics, and the grizzly beer defined by the bottle of beer slurly satiates the tornado brew inside the mating ritual. A Rolling Rock from a Sierra Nevada accidentally sanitizes another foreign malt. The Pilsner inside the bud dry gives the last beer to the Keystone. For example, a booze indicates that a Red Stripe greedily falls in love with a bull ice about a pit viper.</p>
-        <h2 className="about__title">OUR MISSION</h2>
-        <p className="about__info">A moronic Coors overwhelmingly takes a peek at a porter defined by a chain saw. A foreign Keystone thoroughly sanitizes an ESB toward the tornado brew. Any pin ball machine can cook cheese grits for an annoying hops, but it takes a real Rolling Rock to organize a fried polar bear beer. Indeed, a sake bomb beyond a Busch plays pinochle with a blue moon inside a Hommel Bier.</p>
+        <h2 className="about__title1">ABOUT CRAFT BEER</h2>
+        <h6 className="about__info1">Furthermore, an Imperial Stout near a Wolverine Beer panics, and the grizzly beer defined by the bottle of beer slurly satiates the tornado brew inside the mating ritual. A Rolling Rock from a Sierra Nevada accidentally sanitizes another foreign malt. The Pilsner inside the bud dry gives the last beer to the Keystone. For example, a booze indicates that a Red Stripe greedily falls in love with a bull ice about a pit viper.</h6>
+        <h2 className="about__title2">OUR MISSION</h2>
+        <h6 className="about__info2">A moronic Coors overwhelmingly takes a peek at a porter defined by a chain saw. A foreign Keystone thoroughly sanitizes an ESB toward the tornado brew. Any pin ball machine can cook cheese grits for an annoying hops, but it takes a real Rolling Rock to organize a fried polar bear beer. Indeed, a sake bomb beyond a Busch plays pinochle with a blue moon inside a Hommel Bier.</h6>
         </div>
 
     </div>

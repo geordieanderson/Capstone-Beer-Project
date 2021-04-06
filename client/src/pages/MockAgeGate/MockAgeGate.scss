@@ -1,0 +1,59 @@
+@use '../../partials/variables';
+@use '../../partials/mixins' as *;
+
+
+.age__container{
+    position: relative;
+}
+
+.age__cover{
+    width: 100vw;
+    opacity: 30%;   
+}
+
+.age__info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    border: 5px solid $primary-background;
+    background-color: $secondary-background;
+    color: $white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.age__headerTop{
+    font-size: $font-mobile-subheader;
+
+    @include tablet{
+        font-size: $font-subheader;
+    }
+
+    @include desktop{
+        font-size: $font-header;
+    }
+}
+
+.age__headerBottom{
+    font-size: $font-mobile-paragraph;
+    margin-bottom: 1rem;
+
+    @include tablet{
+        font-size: $font-paragraph;
+        margin-bottom: 2rem;
+    }
+
+    @include desktop{
+        font-size: $font-subheader;
+        margin-bottom: 3rem;
+    }
+}
+
+

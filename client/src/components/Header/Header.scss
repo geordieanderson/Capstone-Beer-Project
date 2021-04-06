@@ -27,6 +27,10 @@
     @include tablet{
         font-size: $font-header;
     }
+
+    @include desktop{
+        font-size: $font-superheader;
+    }
 }
 
 
