@@ -2,42 +2,40 @@
 @use '../../partials/mixins' as *;
 
 
-.find {
-  background-color: #282c34;
+.find__container{
+  position: relative;
+}
 
-  &__container{
-    position: absolute;
-    top: 40vh;
-    left: 5vw;
+.find__hero{
+  width: 100vw;
+  opacity: 30%;   
+}
 
-    @include tablet{
-      top: 60vh;
-      left: 15vw;
-    }
+.find__heading{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $secondary-background;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
 
-    @include desktop{
-      top: 60vh;
-      left: 40vw;
-    }
+}
 
+.find__title{
+  font-size: $font-mobile-header;
+
+  @include tablet{
+      font-size: $font-header;
   }
 
-  &__title{
-    display: flex;
-    color: $white;
-    justify-content: center;
-    font-style: italic;
-    font-size: $font-mobile-header;
-    
-    @include tablet{
+  @include desktop{
       font-size: $font-superheader;
-    }
-  }
-
-  &__hero{
-    display: flex;
-    position: relative;
-    width: 100%;
-    opacity: 30%;
   }
 }
+
+

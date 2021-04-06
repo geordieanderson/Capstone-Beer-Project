@@ -10,12 +10,13 @@ const FindBeer = () => {
   return (
     <>
     <Header/>
-    <div className="find">
-      <div className="find__container">
-        <h2 className="find__title">WE ARE OUT HAVING A BEER</h2>
+    <div className="find__container">
+    <img className="find__hero" src={Hero} alt="empty-glass"/>
+      <div className="find__heading">
+        <h2 className="find__title">WE ARE OUT HAVING A BEER,</h2>
         <h2 className="find__title">PLEASE COME BACK LATER</h2>
       </div>
-      <img className="find__hero" src={Hero} alt="empty-glass"/>
+      
     </div>
     <Footer/>
     </>
