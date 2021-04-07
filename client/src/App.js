@@ -20,7 +20,7 @@ function App() {
       <Route path="/about" component={About}/>
       <Route path="/find" component={FindBeer}/>   
       <Route path="/favourites" component={Favourites}/>
-      <Route path="/mock" component={FavouritesMock}/>
+      <Route path="/myfavourites" component={FavouritesMock}/>
     </Switch>
     </BrowserRouter>
   );

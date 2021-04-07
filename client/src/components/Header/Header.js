@@ -15,7 +15,7 @@ const Header = () => {
                 <NavLink to="/about" style={{ textDecoration: 'none' }}><h5 className="nav">ABOUT</h5></NavLink>
                 <NavLink to="/beers" style={{ textDecoration: 'none' }}><h5 className="nav">BEERS</h5></NavLink>
                 <NavLink to="/find" style={{ textDecoration: 'none' }}><h5 className="nav">FIND</h5></NavLink>
-                <NavLink to="/mock" style={{ textDecoration: 'none' }}><h5 className="nav">FAVES</h5></NavLink>
+                <NavLink to="/myfavourites" style={{ textDecoration: 'none' }}><h5 className="nav">FAVES</h5></NavLink>
             </div>     
         </div>
     );

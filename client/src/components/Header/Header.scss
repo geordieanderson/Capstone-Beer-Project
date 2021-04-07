@@ -46,8 +46,13 @@
     text-align: right;
 
     @include tablet{
+        width: 30vw;
         flex-direction: row;
         align-items: center;
+    }
+
+    @include desktop{
+        width: 15vw;
     }
 }
 

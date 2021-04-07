@@ -43,7 +43,7 @@ return (
                             <Link to="/find"><button className="buttons__find" type="submit">📍</button></Link> 
                         </div>
                         <div className="buttons__right">
-                            <Link to="/favourites"><button className="buttons__like" type="submit">🍻</button></Link>    
+                            <Link to="/myfavourites"><button className="buttons__like" type="submit">🍻</button></Link>    
                         </div>
                     </div>               
                 </div>

@@ -30,7 +30,7 @@ const FavouritesMock = () =>{
                 <h4 className="mock__brewer">Collective Arts Brewing</h4>
             </div>
             <div className="mock__input">
-                <textarea className="mock__notes" type="text" placeholder="Add tasting notes"></textarea>
+                <textarea className="mock__notes" type="text" placeholder="SO GOOD!"></textarea>
                 <div className="mock__btnContainer">  
                     <div className="mock__btnContainerLeft">     
                         <button className="buttons__submit" type="submit">➕</button>
@@ -48,7 +48,7 @@ const FavouritesMock = () =>{
                 <h4 className="mock__brewer">Great Lakes Brewery</h4>
             </div>
             <div className="mock__input">
-                <textarea className="mock__notes" type="text" placeholder="Add tasting notes"></textarea>
+                <textarea className="mock__notes" type="text" placeholder="My all time fave!  Going to have about a half dozen after this presentation is done!"></textarea>
                 <div className="mock__btnContainer">  
                     <div className="mock__btnContainerLeft">     
                         <button className="buttons__submit" type="submit">➕</button>
@@ -66,7 +66,7 @@ const FavouritesMock = () =>{
                 <h4 className="mock__brewer">Great Lakes Brewery</h4>
             </div>
             <div className="mock__input">
-                <textarea className="mock__notes" type="text" placeholder="Add tasting notes"></textarea>
+                <textarea className="mock__notes" type="text" placeholder="Super hoppy and drinks dangerously easy for 8%"></textarea>
                 <div className="mock__btnContainer">  
                     <div className="mock__btnContainerLeft">     
                         <button className="buttons__submit" type="submit">➕</button>
@@ -84,7 +84,7 @@ const FavouritesMock = () =>{
                 <h4 className="mock__brewer">Left Field Brewery</h4>
             </div>
             <div className="mock__input">
-                <textarea className="mock__notes" type="text" placeholder="Add tasting notes"></textarea>
+                <textarea className="mock__notes" type="text" placeholder="Smooth oatmeal brown ale"></textarea>
                 <div className="mock__btnContainer">  
                     <div className="mock__btnContainerLeft">     
                         <button className="buttons__submit" type="submit">➕</button>
@@ -102,7 +102,7 @@ const FavouritesMock = () =>{
                 <h4 className="mock__brewer">Nickel Brook Brewing Co</h4>
             </div>
             <div className="mock__input">
-                <textarea className="mock__notes" type="text" placeholder="Add tasting notes"></textarea>
+                <textarea className="mock__notes" type="text" placeholder="It's good to be bad!"></textarea>
                 <div className="mock__btnContainer">  
                     <div className="mock__btnContainerLeft">     
                         <button className="buttons__submit" type="submit">➕</button>
